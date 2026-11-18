@@ -1,0 +1,12 @@
+{
+  "label": "032_stock_600519_more_chart_menu",
+  "captured_at": "2026-11-17T17:00:56.291796+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{b4c3f15 u0 PopupWindow:62df171}\nmFocusedApp=ActivityRecord{133626002 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity t14073}",
+  "signature": "5c55597b6a0f78c5",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_170056_032_stock_600519_more_chart_menu.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170056_032_stock_600519_more_chart_menu.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170056_032_stock_600519_more_chart_menu_summary.md"
+}

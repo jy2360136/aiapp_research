@@ -1,0 +1,50 @@
+{
+  "label": "cold_start_retest",
+  "started_at": "2026-11-18T12:17:17.017527+08:00",
+  "activity": "dongzheng.ai.android.phone/.MainActivity",
+  "start_output": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1963\r\nWaitTime: 1965\r\nComplete\r\n",
+  "start_return_seconds": 2.064,
+  "focus": "mCurrentFocus=Window{a24d6d5 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{224024585 u0 dongzheng.ai.android.phone/.MainActivity t14190}",
+  "screenshots": [
+    {
+      "target_seconds": 0.0,
+      "actual_seconds": 2.999,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\00_3.00s.png"
+    },
+    {
+      "target_seconds": 1.0,
+      "actual_seconds": 3.685,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\01_3.68s.png"
+    },
+    {
+      "target_seconds": 2.0,
+      "actual_seconds": 4.482,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\02_4.48s.png"
+    },
+    {
+      "target_seconds": 3.0,
+      "actual_seconds": 5.245,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\03_5.24s.png"
+    },
+    {
+      "target_seconds": 5.0,
+      "actual_seconds": 5.987,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\04_5.99s.png"
+    },
+    {
+      "target_seconds": 8.0,
+      "actual_seconds": 8.772,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\05_8.77s.png"
+    },
+    {
+      "target_seconds": 12.0,
+      "actual_seconds": 12.746,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\06_12.75s.png"
+    },
+    {
+      "target_seconds": 20.0,
+      "actual_seconds": 20.784,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_121717_cold_start_retest\\07_20.78s.png"
+    }
+  ]
+}

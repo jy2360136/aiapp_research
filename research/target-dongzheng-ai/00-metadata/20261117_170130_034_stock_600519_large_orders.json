@@ -1,0 +1,12 @@
+{
+  "label": "034_stock_600519_large_orders",
+  "captured_at": "2026-11-17T17:01:30.324317+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{e4c5524 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity}\nmFocusedApp=ActivityRecord{133626002 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity t14073}",
+  "signature": "17267c40a51f5227",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_170130_034_stock_600519_large_orders.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170130_034_stock_600519_large_orders.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170130_034_stock_600519_large_orders_summary.md"
+}

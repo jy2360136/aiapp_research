@@ -1,0 +1,18 @@
+{
+  "label": "04_stock_path_baseline",
+  "captured_at": "2026-11-18T10:10:04.290295+08:00",
+  "package": "dongzheng.ai.android.phone",
+  "pid": 13159,
+  "focus": "mCurrentFocus=Window{25dbaa7 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{235933730 u0 dongzheng.ai.android.phone/.MainActivity t14164}",
+  "process_alive": true,
+  "total_pss_kb": 284842,
+  "total_rss_kb": 500584,
+  "java_heap_kb": 23536,
+  "native_heap_kb": 48900,
+  "graphics_kb": 39408,
+  "views": 28,
+  "view_root_impl": 1,
+  "app_contexts": 6,
+  "activities": 1,
+  "webviews": 1
+}

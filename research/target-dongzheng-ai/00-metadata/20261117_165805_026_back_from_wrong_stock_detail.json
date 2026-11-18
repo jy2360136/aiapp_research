@@ -1,0 +1,12 @@
+{
+  "label": "026_back_from_wrong_stock_detail",
+  "captured_at": "2026-11-17T16:58:05.916995+08:00",
+  "scope": "sensitive",
+  "sensitive_detected": true,
+  "focus": "mCurrentFocus=Window{1ab9001 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{81099766 u0 dongzheng.ai.android.phone/.MainActivity t14073}",
+  "signature": "c86619560256b0f9",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261117_165805_026_back_from_wrong_stock_detail.png",
+  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165805_026_back_from_wrong_stock_detail.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165805_026_back_from_wrong_stock_detail_summary.md"
+}

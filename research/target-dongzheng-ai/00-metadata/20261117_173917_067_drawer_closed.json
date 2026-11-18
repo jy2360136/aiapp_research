@@ -1,0 +1,12 @@
+{
+  "label": "067_drawer_closed",
+  "captured_at": "2026-11-17T17:39:17.354123+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{7a5c186 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{171206140 u0 dongzheng.ai.android.phone/.MainActivity t14078}",
+  "signature": "a96aa1ea03f66361",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_173917_067_drawer_closed.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_173917_067_drawer_closed.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_173917_067_drawer_closed_summary.md"
+}

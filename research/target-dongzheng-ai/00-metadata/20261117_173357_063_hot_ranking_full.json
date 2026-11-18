@@ -1,0 +1,12 @@
+{
+  "label": "063_hot_ranking_full",
+  "captured_at": "2026-11-17T17:33:57.757500+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{4dcaead u0 dongzheng.ai.android.phone/com.upchina.market.hq.MarketTopActivity}\nmFocusedApp=ActivityRecord{48674293 u0 dongzheng.ai.android.phone/com.upchina.market.hq.MarketTopActivity t14073}",
+  "signature": "3913121359698e65",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_173357_063_hot_ranking_full.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_173357_063_hot_ranking_full.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_173357_063_hot_ranking_full_summary.md"
+}

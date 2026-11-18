@@ -1,0 +1,57 @@
+[
+  {
+    "trial": 1,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 5001\r\nWaitTime: 5003\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{2f151e9 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{188885829 u0 dongzheng.ai.android.phone/.MainActivity t14194}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_01.png",
+    "ui_xml": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_01.xml",
+    "service_error_in_tree": false,
+    "stock_answer_in_tree": false,
+    "response_text_in_tree": false,
+    "captured_at": "2026-11-18T12:26:48.910875+08:00"
+  },
+  {
+    "trial": 2,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1906\r\nWaitTime: 1908\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{4cc84ca u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{188159793 u0 dongzheng.ai.android.phone/.MainActivity t14195}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_02.png",
+    "ui_xml": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_02.xml",
+    "service_error_in_tree": false,
+    "stock_answer_in_tree": false,
+    "response_text_in_tree": false,
+    "captured_at": "2026-11-18T12:27:23.981696+08:00"
+  },
+  {
+    "trial": 3,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1792\r\nWaitTime: 1794\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{6056f5 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{38474937 u0 dongzheng.ai.android.phone/.MainActivity t14196}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_03.png",
+    "ui_xml": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_03.xml",
+    "service_error_in_tree": false,
+    "stock_answer_in_tree": false,
+    "response_text_in_tree": false,
+    "captured_at": "2026-11-18T12:27:58.968156+08:00"
+  },
+  {
+    "trial": 4,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1868\r\nWaitTime: 1870\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{2b4c753 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{262073972 u0 dongzheng.ai.android.phone/.MainActivity t14197}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_04.png",
+    "ui_xml": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_04.xml",
+    "service_error_in_tree": false,
+    "stock_answer_in_tree": false,
+    "response_text_in_tree": false,
+    "captured_at": "2026-11-18T12:28:34.050897+08:00"
+  },
+  {
+    "trial": 5,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1758\r\nWaitTime: 1761\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{c109ce7 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{155457111 u0 dongzheng.ai.android.phone/.MainActivity t14198}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_05.png",
+    "ui_xml": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_122610\\trial_05.xml",
+    "service_error_in_tree": false,
+    "stock_answer_in_tree": false,
+    "response_text_in_tree": false,
+    "captured_at": "2026-11-18T12:29:08.992703+08:00"
+  }
+]

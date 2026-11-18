@@ -1,0 +1,12 @@
+{
+  "label": "059_home_scrolled_market_sections",
+  "captured_at": "2026-11-17T17:28:50.973102+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{aec7bb3 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{81099766 u0 dongzheng.ai.android.phone/.MainActivity t14073}",
+  "signature": "d8dd19aa35e0e485",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_172850_059_home_scrolled_market_sections.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_172850_059_home_scrolled_market_sections.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_172850_059_home_scrolled_market_sections_summary.md"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "069_ai_text_input_mode",
+  "captured_at": "2026-11-17T17:40:42.842877+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{7a5c186 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{171206140 u0 dongzheng.ai.android.phone/.MainActivity t14078}",
+  "signature": "c1c12d793f2b559f",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_174042_069_ai_text_input_mode.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_174042_069_ai_text_input_mode.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_174042_069_ai_text_input_mode_summary.md"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "015_trade_settings",
+  "captured_at": "2026-11-17T16:51:53.537871+08:00",
+  "scope": "sensitive",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{b9b7095 u0 dongzheng.ai.android.phone/com.zxb.trade.TradeContainerActivity}\nmFocusedApp=ActivityRecord{238928605 u0 dongzheng.ai.android.phone/com.zxb.trade.TradeContainerActivity t14073}",
+  "signature": "a089fd1739722c95",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261117_165153_015_trade_settings.png",
+  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165153_015_trade_settings.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165153_015_trade_settings_summary.md"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "trial": 1,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1787\r\nWaitTime: 1788\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{6887d91 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{127351960 u0 dongzheng.ai.android.phone/.MainActivity t14165}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_102308\\trial_01.png",
+    "captured_at": "2026-11-18T10:23:48.251108+08:00"
+  },
+  {
+    "trial": 2,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1732\r\nWaitTime: 1735\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{46676f3 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{17156936 u0 dongzheng.ai.android.phone/.MainActivity t14166}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_102308\\trial_02.png",
+    "captured_at": "2026-11-18T10:24:27.869001+08:00"
+  },
+  {
+    "trial": 3,
+    "start": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1719\r\nWaitTime: 1720\r\nComplete\r\n",
+    "focus": "mCurrentFocus=Window{f201590 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{178356345 u0 dongzheng.ai.android.phone/.MainActivity t14167}",
+    "screenshot": "research\\target-dongzheng-ai\\03-logs\\ai-trials\\20261118_102308\\trial_03.png",
+    "captured_at": "2026-11-18T10:25:07.655879+08:00"
+  }
+]

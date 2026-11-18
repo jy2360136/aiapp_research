@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{1ab9001 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}
+  mFocusedApp=ActivityRecord{81099766 u0 dongzheng.ai.android.phone/.MainActivity t14073}

@@ -1,0 +1,12 @@
+{
+  "label": "040b_stock_600519_news_tab_after_4s",
+  "captured_at": "2026-11-17T17:07:43.526779+08:00",
+  "scope": "sensitive",
+  "sensitive_detected": true,
+  "focus": "mCurrentFocus=Window{e4c5524 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity}\nmFocusedApp=ActivityRecord{133626002 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity t14073}",
+  "signature": "3b48051b348876bc",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261117_170743_040b_stock_600519_news_tab_after_4s.png",
+  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170743_040b_stock_600519_news_tab_after_4s.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170743_040b_stock_600519_news_tab_after_4s_summary.md"
+}

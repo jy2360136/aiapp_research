@@ -1,0 +1,45 @@
+{
+  "label": "cold_start_20261118",
+  "started_at": "2026-11-18T10:01:42.804090+08:00",
+  "activity": "dongzheng.ai.android.phone/.MainActivity",
+  "start_output": "Starting: Intent { cmp=dongzheng.ai.android.phone/.MainActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: dongzheng.ai.android.phone/.MainActivity\r\nTotalTime: 1712\r\nWaitTime: 1714\r\nComplete\r\n",
+  "start_return_seconds": 1.811,
+  "focus": "mCurrentFocus=Window{ade2dab u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{168643434 u0 dongzheng.ai.android.phone/.MainActivity t14162}",
+  "screenshots": [
+    {
+      "target_seconds": 0.0,
+      "actual_seconds": 2.564,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\00_2.56s.png"
+    },
+    {
+      "target_seconds": 1.0,
+      "actual_seconds": 3.21,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\01_3.21s.png"
+    },
+    {
+      "target_seconds": 2.0,
+      "actual_seconds": 3.837,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\02_3.84s.png"
+    },
+    {
+      "target_seconds": 3.0,
+      "actual_seconds": 4.527,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\03_4.53s.png"
+    },
+    {
+      "target_seconds": 5.0,
+      "actual_seconds": 5.771,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\04_5.77s.png"
+    },
+    {
+      "target_seconds": 8.0,
+      "actual_seconds": 8.75,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\05_8.75s.png"
+    },
+    {
+      "target_seconds": 12.0,
+      "actual_seconds": 12.758,
+      "path": "research\\target-dongzheng-ai\\01-screenshots\\startup\\20261118_100142_cold_start_20261118\\06_12.76s.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "045_home_from_stock",
+  "captured_at": "2026-11-17T17:14:45.576201+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{1ab9001 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{81099766 u0 dongzheng.ai.android.phone/.MainActivity t14073}",
+  "signature": "689cb611fdad20a2",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_171445_045_home_from_stock.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_171445_045_home_from_stock.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_171445_045_home_from_stock_summary.md"
+}

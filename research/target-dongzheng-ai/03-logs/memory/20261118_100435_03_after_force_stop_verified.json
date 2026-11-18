@@ -1,0 +1,11 @@
+{
+  "label": "03_after_force_stop_verified",
+  "captured_at": "2026-11-18T10:04:35.430976+08:00",
+  "package": "dongzheng.ai.android.phone",
+  "pid": null,
+  "focus": "mCurrentFocus=Window{f13a028 u0 com.hihonor.android.launcher/com.hihonor.android.launcher.unihome.UniHomeLauncher}\nmFocusedApp=ActivityRecord{248315059 u0 com.hihonor.android.launcher/.unihome.UniHomeLauncher t13735}",
+  "process_alive": false,
+  "total_pss_kb": 0,
+  "total_rss_kb": 0,
+  "note": "process not running"
+}

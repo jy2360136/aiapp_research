@@ -1,0 +1,12 @@
+{
+  "label": "056_ai_history_opened",
+  "captured_at": "2026-11-17T17:26:04.036966+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{1ab9001 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{81099766 u0 dongzheng.ai.android.phone/.MainActivity t14073}",
+  "signature": "1aa4336e110b2423",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_172604_056_ai_history_opened.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_172604_056_ai_history_opened.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_172604_056_ai_history_opened_summary.md"
+}

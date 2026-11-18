@@ -1,0 +1,12 @@
+{
+  "label": "042_stock_600519_fund_holding",
+  "captured_at": "2026-11-17T17:08:19.508995+08:00",
+  "scope": "sensitive",
+  "sensitive_detected": true,
+  "focus": "mCurrentFocus=Window{e4c5524 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity}\nmFocusedApp=ActivityRecord{133626002 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity t14073}",
+  "signature": "fe2be96a9a665ff2",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261117_170819_042_stock_600519_fund_holding.png",
+  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170819_042_stock_600519_fund_holding.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_170819_042_stock_600519_fund_holding_summary.md"
+}

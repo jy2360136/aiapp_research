@@ -1,0 +1,18 @@
+{
+  "label": "10_home_after_stock_stress_80s",
+  "captured_at": "2026-11-18T10:18:54.206124+08:00",
+  "package": "dongzheng.ai.android.phone",
+  "pid": 13159,
+  "focus": "mCurrentFocus=Window{25dbaa7 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{235933730 u0 dongzheng.ai.android.phone/.MainActivity t14164}",
+  "process_alive": true,
+  "total_pss_kb": 330710,
+  "total_rss_kb": 559500,
+  "java_heap_kb": 29492,
+  "native_heap_kb": 70836,
+  "graphics_kb": 42820,
+  "views": 28,
+  "view_root_impl": 1,
+  "app_contexts": 6,
+  "activities": 1,
+  "webviews": 1
+}

@@ -1,0 +1,12 @@
+{
+  "label": "010_privacy_policy_document",
+  "captured_at": "2026-11-17T16:44:41.584741+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{fc80442 u0 dongzheng.ai.android.phone/com.dgzq.webview.DZWebViewActivity}\nmFocusedApp=ActivityRecord{187290258 u0 dongzheng.ai.android.phone/com.dgzq.webview.DZWebViewActivity t14073}",
+  "signature": "ed977a71c5d672ae",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_164441_010_privacy_policy_document.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_164441_010_privacy_policy_document.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_164441_010_privacy_policy_document_summary.md"
+}

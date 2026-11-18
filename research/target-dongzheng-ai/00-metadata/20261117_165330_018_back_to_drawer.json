@@ -1,0 +1,12 @@
+{
+  "label": "018_back_to_drawer",
+  "captured_at": "2026-11-17T16:53:30.183513+08:00",
+  "scope": "sensitive",
+  "sensitive_detected": true,
+  "focus": "mCurrentFocus=Window{1ab9001 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{81099766 u0 dongzheng.ai.android.phone/.MainActivity t14073}",
+  "signature": "55f0530ff97d19c7",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261117_165330_018_back_to_drawer.png",
+  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165330_018_back_to_drawer.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165330_018_back_to_drawer_summary.md"
+}

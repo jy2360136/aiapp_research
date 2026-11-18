@@ -1,0 +1,12 @@
+{
+  "label": "074_retest_watchlist",
+  "captured_at": "2026-11-18T09:56:53.233264+08:00",
+  "scope": "sensitive",
+  "sensitive_detected": true,
+  "focus": "mCurrentFocus=Window{56b4932 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{22483780 u0 dongzheng.ai.android.phone/.MainActivity t14161}",
+  "signature": "15b38a9fba550808",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261118_095653_074_retest_watchlist.png",
+  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261118_095653_074_retest_watchlist.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261118_095653_074_retest_watchlist_summary.md"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "009_agreement_terms",
+  "captured_at": "2026-11-17T16:44:13.803671+08:00",
+  "scope": "public",
+  "sensitive_detected": false,
+  "focus": "mCurrentFocus=Window{83c4f6f u0 dongzheng.ai.android.phone/com.zxb.home.view.HomeActivity}\nmFocusedApp=ActivityRecord{23775351 u0 dongzheng.ai.android.phone/com.zxb.home.view.HomeActivity t14073}",
+  "signature": "a499809f0a01fc82",
+  "package": "dongzheng.ai.android.phone",
+  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_164413_009_agreement_terms.png",
+  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_164413_009_agreement_terms.xml",
+  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_164413_009_agreement_terms_summary.md"
+}

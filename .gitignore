@@ -1,0 +1,23 @@
+# Local-only evidence that may contain credentials, account identifiers, or holdings
+.private/
+
+# Android/build artifacts
+*.apk
+*.aab
+*.jks
+*.keystore
+*.log
+*.hprof
+
+# Tooling noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
