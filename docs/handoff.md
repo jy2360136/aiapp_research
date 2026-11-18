@@ -116,7 +116,7 @@ research/competitors/
 8. 验证码约 1 分钟过期；失败就重新获取新码。
 9. 公开截图必须遮盖手机号、验证码、账号名和资产信息。
 
-完整流程见 `docs/competitor-login-sop.md`。本机授权手机号只保存在 `.private/competitor-auth.md`。
+完整流程见 `docs/competitor-login-sop.md`。本机授权手机号只保存在 `docs/competitor-auth.md（仅本机，已在 .gitignore 中排除）`。
 
 ## 9. 安全边界
 

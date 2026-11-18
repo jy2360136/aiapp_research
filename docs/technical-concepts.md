@@ -227,3 +227,174 @@ Android 原生外壳（Java/Kotlin）
 - 系统 LowMem/ExitInfo；
 - 读屏可读性；
 - AI 首问成功率、P95 时延、错误率、重试成功率。
+
+
+## 9. 冷启动、温启动、热启动分别是什么
+
+这三个词描述的是“App 进程和页面还在不在内存里”，不是“有没有缓存文件”。
+
+### 冷启动
+
+- App 进程不存在；
+- 系统需要重新创建进程；
+- 重新加载 Application、Activity、资源、网络库、图片库、WebView 引擎等；
+- 然后才请求接口、渲染页面。
+
+冷启动不代表完全没有缓存。它仍然可能读取 HTTP 磁盘缓存、图片缓存、本地数据库、SharedPreferences 和上次保存的数据。但这些缓存不能省掉“重新创建进程”的成本。
+
+### 温启动
+
+- 进程还在；
+- 原 Activity/页面已经被销毁；
+- 再次进入时需要重建页面和部分数据。
+
+可以类比为浏览器进程还在，但标签页被关掉后重新打开一个。
+
+### 热启动
+
+- App 进程还在；
+- Activity/页面也还在；
+- 用户只是从后台切回前台；
+- 系统直接恢复原有界面和状态。
+
+这是最快的场景，可能只需要几十到几百毫秒。
+
+### 为什么冷启动慢不一定等于缓存没命中
+
+冷启动同时包含进程创建、类加载、SO/Native 库加载、首页 Activity 初始化、Compose/View 渲染、图片字体 WebView 初始化、接口请求和图表绘制。即使接口用了缓存，WebView 和大量卡片仍可能拖慢首屏。
+
+## 10. WebView 一般占多少内存
+
+没有固定标准，取决于 Android/Chromium 版本、页面复杂度、图片/视频/图表、WebView 数量、是否多个渲染进程、硬件加速和缓存大小。
+
+粗略量级，仅用于产品沟通：
+
+| 场景 | 粗略量级 | 说明 |
+|---|---:|---|
+| 空白/极简 WebView | 约 30–80 MB | 仅引擎和最小页面 |
+| 普通 H5 页面 | 约 60–150 MB | 图片、字体、JS 框架和接口数据 |
+| 图表/长列表/多媒体 H5 | 100–300 MB 或更高 | 取决于缓存和渲染 |
+
+这些不是硬标准，验收必须用同一设备、同一版本、同一路径的 PSS 实测。
+
+### “4 个 WebView”是不是 4 个 Chrome 引擎
+
+不一定完全是四个独立 Chrome 进程。`dumpsys meminfo` 里的 `WebViews` 更像“当前进程里存活的 WebView 对象数量”。不同 WebView 可能共享部分 Chromium 库、GPU 资源和渲染进程，但也可能各自带来独立页面缓存和 JS 上下文。
+
+因此 4 个 WebView 一定意味着“至少 4 个页面容器/上下文需要治理”，但不能简单算成 `4 × 150 MB`，也不能当成免费的 iframe。
+
+## 11. 首页多个功能卡片，是不是每个卡片都要一个 WebView
+
+不一定，常见有四种做法：
+
+### A. 全部原生
+
+卡片由 Android 原生控件绘制，性能和无障碍通常更好，但跨端复用和热更新较弱。
+
+### B. 一个 WebView 承载整块 H5 区域
+
+一个 WebView 里放多个 HTML 卡片或 Vue/React 组件，卡片之间共享 JS 上下文，内存相对可控。
+
+### C. 一个 WebView 内用 iframe 嵌多个供应商页面
+
+外层是一个 WebView，内部多个 iframe，类似浏览器里嵌套多个网页；iframe 可隔离，但也可能带来跨域、通信和性能问题。
+
+### D. 每个功能卡片一个独立 WebView
+
+每个卡片有独立浏览器上下文，隔离性强，适合不同供应商、登录态和发布节奏，但内存和启动成本最高。旧 WebView 未销毁时很容易堆到多个实例。
+
+所以“同花顺 H5 卡片 + 东方财富 H5 卡片 + 原生对话输入框”并不意味着必然有三个 Chrome 引擎。可能是：
+
+- 一个 WebView 中的两个 iframe/HTML 区块；
+- 一个 WebView 加载聚合页；
+- 两个独立 WebView；
+- 原生卡片 + 单个 WebView 混合。
+
+要判断实际实现，需要看 UI 树里出现几个 `android.webkit.WebView`、`dumpsys meminfo` 中 `WebViews` 数量、当前 Activity 是否包含多个 WebView 容器、页面切换后旧 Activity/WebView 是否销毁，以及是否存在 `WebViewPool`、`HybridActivity`、`WebViewActivity` 等结构。
+
+掌小宝本次出现 4 个 WebView，说明至少存在 4 个存活容器；但仅凭这个计数，不能断言每个卡片都有自己的 Chrome 内核。
+
+## 12. 原生调用 H5：是不是像传 props
+
+方向是对的，但不完全一样。
+
+在 Vue3 里，父组件通过 props 把数据传给子组件，因为父子组件在同一个 JS 运行时里。
+
+原生和 H5 不在同一个运行时：
+
+```text
+Java/Kotlin 原生
+  ↕ JSBridge / WebMessage / URL Scheme
+JavaScript H5
+```
+
+所以原生到 H5 更像“初始状态注入 + 事件总线 + RPC 调用 + JSON 消息”，而不是 React/Vue 的活对象 props。
+
+### 常见实现 1：注入初始状态
+
+```javascript
+window.__APP_CONFIG__ = {
+  userId: "***",
+  theme: "light",
+  market: "A股",
+  authToken: "***"
+};
+```
+
+H5 启动后读取 `window.__APP_CONFIG__`，类似服务端渲染时注入的 `initialState`。
+
+### 常见实现 2：postMessage 事件
+
+```javascript
+window.postMessage({
+  type: "MARKET_DATA_UPDATED",
+  payload: { code: "600519", price: 1457.7 }
+}, "*");
+```
+
+```javascript
+window.addEventListener("message", (event) => {
+  if (event.data?.type === "MARKET_DATA_UPDATED") {
+    store.updateMarket(event.data.payload);
+  }
+});
+```
+
+这更像事件总线，而不是 props。
+
+### 常见实现 3：注册 JS Bridge
+
+```java
+webView.addJavascriptInterface(nativeBridge, "NativeBridge");
+```
+
+```javascript
+NativeBridge.openStock("600519");
+NativeBridge.getUserInfo();
+```
+
+这更像 H5 调用原生提供的一组 RPC 方法。
+
+### 常见实现 4：URL Scheme / Deep Link
+
+H5 触发 `app://stock?code=600519`，原生拦截 URL 并打开对应页面。
+
+### 实际项目通常采用“握手 + 事件 + 主动拉取”
+
+1. H5 加载完成后发送 `ready`。
+2. 原生收到 `ready`，再注入用户信息或主题配置。
+3. H5 把数据放进 Pinia/Redux 状态。
+4. 原生后续通过 `postMessage` 推送行情、登录态或页面事件。
+5. H5 通过 Bridge 调原生能力。
+6. 双方带协议版本号，避免 App 与 H5 发布不同步。
+
+### 关键坑
+
+- H5 还没注册监听，原生就发送消息，导致消息丢失；
+- 桥接只能传字符串，复杂对象需要 JSON 序列化；
+- 不同供应商 H5 的字段协议容易漂移；
+- 登录态/token 通过桥接传递，安全边界要严格；
+- 页面刷新后状态丢失，需要重新注入或从本地缓存恢复；
+- H5 没有无障碍语义，原生容器不会自动补上。
+
+可以把 Bridge 理解为：原生和 H5 之间的一套异步 RPC + 事件总线 + 初始状态注入机制，不完全等同于 Vue3 的 props。

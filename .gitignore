@@ -21,3 +21,6 @@ node_modules/
 Thumbs.db
 .idea/
 .vscode/
+
+# Local-only authorized test account details
+docs/competitor-auth.md
