@@ -41,3 +41,13 @@ python automation/capture_exceptions.py --label before --clear
 # 执行一次点击
 python automation/capture_exceptions.py --label after
 ```
+
+
+## 版本化截图规范
+
+- 原始采集先进入 `.private/raw/`，经脱敏后再发布到 `research/`。
+- 掌小宝目录：`research/target-dongzheng-ai/screenshots/v<版本>_<日期>/<功能分区>/`。
+- 竞品目录：`research/competitors/<产品>/v<版本>_<日期>/screenshots/<功能分区>/`。
+- 文件名：`stepNN_操作_结果.png`。
+- 每个版本和功能分区都需要 README，写清当前进度、结论和剩余问题。
+- 新版本不要覆盖旧版本目录；旧版本只作回归对比。

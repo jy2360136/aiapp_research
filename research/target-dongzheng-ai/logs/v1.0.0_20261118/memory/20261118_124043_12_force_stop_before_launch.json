@@ -1,0 +1,11 @@
+{
+  "label": "12_force_stop_before_launch",
+  "captured_at": "2026-11-18T12:40:43.802838+08:00",
+  "package": "dongzheng.ai.android.phone",
+  "pid": null,
+  "focus": "mCurrentFocus=Window{b974bfc u0 com.eastmoney.innovation.android/com.eastmoney.android.account.activity.QSPassportLoginActivity}\nmFocusedApp=ActivityRecord{178857144 u0 com.eastmoney.innovation.android/com.eastmoney.android.account.activity.QSPassportLoginActivity t14193}",
+  "process_alive": false,
+  "total_pss_kb": 0,
+  "total_rss_kb": 0,
+  "note": "process not running"
+}

@@ -1,0 +1,18 @@
+{
+  "label": "07_stock_path_cycle_3",
+  "captured_at": "2026-11-18T10:13:48.660378+08:00",
+  "package": "dongzheng.ai.android.phone",
+  "pid": 13159,
+  "focus": "mCurrentFocus=Window{f6d548c u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity}\nmFocusedApp=ActivityRecord{94151240 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity t14164}",
+  "process_alive": true,
+  "total_pss_kb": 528346,
+  "total_rss_kb": 756040,
+  "java_heap_kb": 159084,
+  "native_heap_kb": 139264,
+  "graphics_kb": 42724,
+  "views": 956,
+  "view_root_impl": 5,
+  "app_contexts": 18,
+  "activities": 5,
+  "webviews": 1
+}

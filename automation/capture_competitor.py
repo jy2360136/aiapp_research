@@ -53,7 +53,12 @@ def main() -> int:
         raise RuntimeError("Unable to capture complete PNG")
 
     xml_text = adb.ui_xml()
-    ET.fromstring(xml_text)
+    ui_xml_error = None
+    try:
+        ET.fromstring(xml_text)
+    except ET.ParseError as exc:
+        # Some login/protected screens intentionally block UIAutomator dumps.
+        ui_xml_error = str(exc)
     focus = adb.current_focus()
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
     stamp = now.strftime("%Y%m%d_%H%M%S")
@@ -79,6 +84,7 @@ def main() -> int:
         "start_output": start,
         "screenshot": str(shot.relative_to(ROOT)),
         "ui_xml": str(ui.relative_to(ROOT)),
+        "ui_xml_error": ui_xml_error,
         "privacy": "raw private evidence; inspect and redact before publishing",
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"package": args.package, "label": args.label, "screenshot": str(shot), "ui_xml": str(ui), "focus": focus}, ensure_ascii=False, indent=2))

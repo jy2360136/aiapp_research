@@ -1,0 +1,18 @@
+{
+  "label": "13_cold_start_after_force_stop",
+  "captured_at": "2026-11-18T12:40:52.399420+08:00",
+  "package": "dongzheng.ai.android.phone",
+  "pid": 27112,
+  "focus": "mCurrentFocus=Window{d028470 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{173745236 u0 dongzheng.ai.android.phone/.MainActivity t14200}",
+  "process_alive": true,
+  "total_pss_kb": 343241,
+  "total_rss_kb": 495772,
+  "java_heap_kb": 79520,
+  "native_heap_kb": 37324,
+  "graphics_kb": 39300,
+  "views": 28,
+  "view_root_impl": 1,
+  "app_contexts": 12,
+  "activities": 1,
+  "webviews": 1
+}

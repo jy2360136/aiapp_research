@@ -1,0 +1,35 @@
+{
+  "captured_at": "2026-11-17T16:40:00+08:00",
+  "device": {
+    "manufacturer": "HONOR",
+    "model": "MEP-AN00",
+    "android": "16",
+    "sdk": 36,
+    "screen_px": [
+      1264,
+      2736
+    ],
+    "density_dpi": 560
+  },
+  "target_app": {
+    "name": "掌小宝",
+    "package": "dongzheng.ai.android.phone",
+    "version_name": "1.0.0",
+    "version_code": 100,
+    "first_install_time": "2026-11-17 11:22:55",
+    "last_update_time": "2026-11-17 11:22:55",
+    "debuggable": true,
+    "target_sdk": 33,
+    "min_sdk": 23
+  },
+  "excluded_app": {
+    "name": "掌证宝",
+    "package": "dongzheng.szkingdom.android.phone",
+    "version_name": "6.5.3",
+    "version_code": 737
+  },
+  "adb": {
+    "version": "1.0.41",
+    "platform_tools": "37.0.3-16887417"
+  }
+}

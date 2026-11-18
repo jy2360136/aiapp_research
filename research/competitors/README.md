@@ -1,19 +1,31 @@
-# 重点竞品证据索引
+# 重点竞品调研目录
 
-本次只保留与分析直接相关的脱敏截图；原始截图与完整界面树仍在本机 `.private/`，不入库。
+## 目录规则
 
-## 重点竞品
+每个竞品按“产品 → 版本 → 功能”组织：
 
-| 产品 | 版本 | 证据 |
-|---|---:|---|
-| 同花顺问财 | 5.3.1 | `screenshots/01_hexin_wencai_home.png` |
-| 东方财富妙想 | 1.6.0 | `screenshots/02_eastmoney_miaoxiang_privacy.png`（登录门槛） |
-| 国泰海通灵犀 | 9.30.45 | `screenshots/03_gtht_lingxi_home.png`、`04_gtht_lingxi_answer.png` |
-| 涨乐财富通 Yomi | 2.0.6 | `screenshots/05_htsc_yomi_home.png`、`06_htsc_yomi_answer.png` |
-| 长小牛 AI | 1.1.6 | `screenshots/07_cjsc_ai_running.png`、`08_cjsc_ai_answer.png` |
+```text
+competitors/
+  hexin-stockassistant/v5.3.1_20261118/screenshots/01-AI入口/
+  eastmoney-innovation/v1.6.0_20261118/screenshots/01-登录与权限/
+  gtht-lingxiai/v9.30.45_20261118/screenshots/01-AI入口/
+  htsc-cftlight/v2.0.6_20261118/screenshots/01-AI入口/
+  cjsc-moo/v1.1.6_20261118/screenshots/01-AI入口/
+```
 
-总览图：`screenshots/00_ai_entry_contact_sheet.png`
+## 下一轮先看
 
-完整对标结论见 [`docs/competitor-benchmark.md`](../../docs/competitor-benchmark.md)。
+1. `eastmoney-innovation/v1.6.0_20261118/README.md`：已完成真实登录和一次综合诊股。
+2. `../../docs/competitor-login-sop.md`：手机号验证码登录的标准操作流程。
+3. `../../docs/competitor-benchmark.md`：五款产品横向对标。
+4. `../../docs/handoff.md`：下一轮任务和上下文边界。
 
-> 截图已裁掉手机状态栏，避免暴露无关通知。界面中出现的股票、行情和示例内容均为测试时公开数据，不构成投资建议。
+## 不要先看
+
+- `archive/20261118_flat_screenshots`：上一轮未按产品/版本/功能分区的截图，只作历史归档。
+
+## 重要说明
+
+- 竞品截图已裁掉系统状态栏。
+- 手机号、验证码、账号中心等敏感截图只在本机 `.private/`，不进入公开目录。
+- 本轮实测的是已安装版本，后续必须先记录版本号再比较。

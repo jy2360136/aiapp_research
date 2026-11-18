@@ -4,12 +4,16 @@
 
 ## 当前结论入口
 
+- [文档总索引](docs/README.md)
+- [交接文档](docs/handoff.md)
 - [执行摘要](docs/executive-summary.md)
-- [重点缺陷复现单](research/target-dongzheng-ai/05-findings/bug-reports.md)
+- [重点缺陷复现单](docs/bug-reports-v1.0.0_20261118.md)
 - [内存与首屏性能说明](docs/memory-and-performance.md)
+- [手机端术语与混合开发原理](docs/technical-concepts.md)
 - [五款重点竞品对标](docs/competitor-benchmark.md)
+- [竞品手机号验证码登录 SOP](docs/competitor-login-sop.md)
 - [AI 功能规划与优先级清单](docs/product-roadmap.md)
-- [掌小宝页面地图](research/target-dongzheng-ai/04-navigation/page-map.md)
+- [掌小宝页面地图](research/target-dongzheng-ai/navigation/v1.0.0_20261118/page-map.md)
 - [自动化脚本说明](automation/README.md)
 
 ## 产品与测试范围
@@ -29,6 +33,7 @@
 4. 重路径遍历出现 PSS 约 588 MB、RSS 约 743 MB、4 个 WebView、976 个 View 的峰值；后续回落到约 331 MB，暂不判定为持续泄漏。
 5. 从最近任务划掉 App 后，本机记录显示主进程、pushservice 和 WebView 沙箱进程均退出；再次打开为新 PID，属于冷启动。
 6. “自选空态点击语义不一致”已撤回；复测证实「添加股票」进入搜索页正常。
+7. 东方财富妙想已完成测试手机号验证码登录，并完成一次“综合诊股”实测。
 
 ## 目录约定
 
@@ -37,13 +42,16 @@ automation/                         可复现的 ADB 采集与性能脚本
 docs/                               方法、性能说明、竞品对标、产品路线图
 research/
   target-dongzheng-ai/
-    00-metadata/                    设备与应用元数据
-    01-screenshots/                 可提交的截图（敏感信息必须脱敏）
-    02-ui-hierarchy/                UI XML 或脱敏结构摘要
-    03-logs/                        脱敏后的日志、AI 试验与内存采样
-    04-navigation/                  页面地图与复现路径
-    05-findings/                    缺陷单与产品分析
-  competitors/                      脱敏竞品截图与对标资料
+    README.md                       掌小宝测试目录入口
+    screenshots/v1.0.0_20261118/    按功能分区和步骤命名的版本化截图
+    ui-hierarchy/v1.0.0_20261118/   对应 UI 结构
+    logs/v1.0.0_20261118/           AI 试验与内存日志
+    metadata/v1.0.0_20261118/       设备和版本元数据
+    navigation/v1.0.0_20261118/     页面地图
+    archive/                        历史平铺证据，仅追溯
+  competitors/
+    <product>/v<version>_<date>/    竞品按版本和功能分区
+    archive/                        历史平铺截图，仅追溯
 ```
 
 ## 隐私与安全
@@ -64,4 +72,4 @@ python automation/check_connection.py
 python automation/capture_page.py --label example --scope public
 ```
 
-详细方法见 `automation/README.md` 和 `docs/research-method.md`。
+详细方法见 `docs/handoff.md`、`automation/README.md` 和 `docs/research-method.md`。

@@ -53,7 +53,7 @@ python automation/startup_capture.py --label cold_start_retest --intervals "0,1,
 | 4.48 秒 | 首页视觉上基本稳定 |
 | 5.99–20.78 秒 | 无进一步明显首屏变化 |
 
-证据目录：`research/target-dongzheng-ai/01-screenshots/startup/20261118_121717_cold_start_retest/`
+证据目录：`research/target-dongzheng-ai/screenshots/v1.0.0_20261118/01-盯盘/`，冷启动关键帧为 `step01`–`step03`
 
 ### 3.3 为什么“启动耗时 2 秒”和“用户觉得慢”可以同时成立
 
