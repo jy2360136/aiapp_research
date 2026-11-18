@@ -1,0 +1,12 @@
+{
+  "package": "com.pingan.smt",
+  "activity_requested": "com.pingan.smt/.SplashActivity",
+  "label": "home",
+  "captured_at": "2026-11-17T17:48:27.217232+08:00",
+  "focus": "mCurrentFocus=Window{60060c5 u0 com.pingan.smt/com.pingan.smt.activity.PrivacyPolicyActivity}\nmFocusedApp=ActivityRecord{90072844 u0 com.pingan.smt/.activity.PrivacyPolicyActivity t14081}",
+  "pid": 25140,
+  "start_output": "Starting: Intent { cmp=com.pingan.smt/.SplashActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.pingan.smt/.activity.PrivacyPolicyActivity\r\nTotalTime: 2119\r\nWaitTime: 2125\r\nComplete\r\n",
+  "screenshot": ".private\\raw\\competitors\\pingan-smt\\screenshots\\20261117_174827_home.png",
+  "ui_xml": ".private\\raw\\competitors\\pingan-smt\\ui-hierarchy\\20261117_174827_home.xml",
+  "privacy": "raw private evidence; inspect and redact before publishing"
+}

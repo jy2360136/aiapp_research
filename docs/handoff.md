@@ -11,8 +11,8 @@
 - 本机工作目录：`D:\aiapp竞品调研`
 - GitHub：https://github.com/jy2360136/aiapp_research
 - 当前默认分支：`main`
-- 注意：仓库当前为 Public，如涉及公司内部资料建议改为 Private。
-- 原始敏感证据只保存在 `.private/`，不入 Git。
+- 仓库状态：Private，已确认用于公司/家庭电脑内部同步。
+- 原始敏感证据保存在 `.private/`，并随私有仓库同步。
 
 ## 2. 设备与被测 App
 
@@ -116,7 +116,7 @@ research/competitors/
 8. 验证码约 1 分钟过期；失败就重新获取新码。
 9. 公开截图必须遮盖手机号、验证码、账号名和资产信息。
 
-完整流程见 `docs/competitor-login-sop.md`。本机授权手机号只保存在 `docs/competitor-auth.md（仅本机，已在 .gitignore 中排除）`。
+完整流程见 `docs/competitor-login-sop.md`。授权手机号保存在 `docs/competitor-auth.md`，随 Private 仓库同步。
 
 ## 9. 安全边界
 

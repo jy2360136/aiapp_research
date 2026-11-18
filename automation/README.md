@@ -14,7 +14,7 @@ python automation/check_connection.py
 python automation/capture_page.py --label home
 ```
 
-敏感页面（原始文件自动进入 `.private/`，公开目录只保留脱敏 XML 与摘要）：
+敏感页面（原始文件自动进入 `.private/`；私有仓库会同步备份，`research/` 保留脱敏 XML 与摘要）：
 
 ```powershell
 python automation/capture_page.py --label account_panel --scope sensitive
@@ -34,7 +34,7 @@ python automation/capture_page.py --label settings --tap-x 990 --tap-y 215
 python automation/capture_exceptions.py --label after_click
 ```
 
-原始日志写入 `.private/`；仓库仅生成经关键词筛选和基础脱敏的异常摘要。复现点击问题时，应先清空日志，再在手机/ADB 执行单个动作，最后采集。
+原始日志写入 `.private/`；私有仓库会同步备份，同时生成经关键词筛选和基础脱敏的异常摘要。复现点击问题时，应先清空日志，再在手机/ADB 执行单个动作，最后采集。
 
 ```powershell
 python automation/capture_exceptions.py --label before --clear
@@ -45,7 +45,7 @@ python automation/capture_exceptions.py --label after
 
 ## 版本化截图规范
 
-- 原始采集先进入 `.private/raw/`，经脱敏后再发布到 `research/`。
+- 原始采集先进入 `.private/raw/` 并随私有仓库同步；需要对外分享时再脱敏发布到 `research/`。
 - 掌小宝目录：`research/target-dongzheng-ai/screenshots/v<版本>_<日期>/<功能分区>/`。
 - 竞品目录：`research/competitors/<产品>/v<版本>_<日期>/screenshots/<功能分区>/`。
 - 文件名：`stepNN_操作_结果.png`。

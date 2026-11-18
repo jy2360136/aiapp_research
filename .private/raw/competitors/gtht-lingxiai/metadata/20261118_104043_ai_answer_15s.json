@@ -1,0 +1,12 @@
+{
+  "package": "com.gtht.lingxiai",
+  "activity_requested": "com.gtht.lingxiai/com.gtja.home.InitScreen",
+  "label": "ai_answer_15s",
+  "captured_at": "2026-11-18T10:40:43.361675+08:00",
+  "focus": "mCurrentFocus=Window{ab8008f u0 com.gtht.lingxiai/com.gtja.home.lxaikit.aiapp.AIMainScreen}\nmFocusedApp=ActivityRecord{191107956 u0 com.gtht.lingxiai/com.gtja.home.lxaikit.aiapp.AIMainScreen t14171}",
+  "pid": 25506,
+  "start_output": "",
+  "screenshot": ".private\\raw\\competitors\\gtht-lingxiai\\screenshots\\20261118_104043_ai_answer_15s.png",
+  "ui_xml": ".private\\raw\\competitors\\gtht-lingxiai\\ui-hierarchy\\20261118_104043_ai_answer_15s.xml",
+  "privacy": "raw private evidence; inspect and redact before publishing"
+}

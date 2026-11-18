@@ -1,0 +1,12 @@
+{
+  "package": "com.cjsc.moo",
+  "activity_requested": "com.cjsc.moo/.MainActivity",
+  "label": "home_clean",
+  "captured_at": "2026-11-18T10:35:03.856668+08:00",
+  "focus": "mCurrentFocus=Window{10e675a u0 com.cjsc.moo/com.cjsc.moo.MainActivity}\nmFocusedApp=ActivityRecord{131357886 u0 com.cjsc.moo/.MainActivity t14169}",
+  "pid": 22660,
+  "start_output": "",
+  "screenshot": ".private\\raw\\competitors\\cjsc-moo\\screenshots\\20261118_103503_home_clean.png",
+  "ui_xml": ".private\\raw\\competitors\\cjsc-moo\\ui-hierarchy\\20261118_103503_home_clean.xml",
+  "privacy": "raw private evidence; inspect and redact before publishing"
+}

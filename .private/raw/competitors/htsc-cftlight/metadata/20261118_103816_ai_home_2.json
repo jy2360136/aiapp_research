@@ -1,0 +1,12 @@
+{
+  "package": "com.htsc.cftlight",
+  "activity_requested": "com.htsc.cftlight/com.lphtsccft.zhangle.startup.SplashScreenActivity",
+  "label": "ai_home_2",
+  "captured_at": "2026-11-18T10:38:16.083383+08:00",
+  "focus": "mCurrentFocus=Window{90320c4 u0 com.htsc.cftlight/com.lphtsccft.light.MainActivity}\nmFocusedApp=ActivityRecord{262223848 u0 com.htsc.cftlight/com.lphtsccft.light.MainActivity t14170}",
+  "pid": 24463,
+  "start_output": "Starting: Intent { cmp=com.htsc.cftlight/com.lphtsccft.zhangle.startup.SplashScreenActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.htsc.cftlight/com.lphtsccft.zhangle.startup.SplashScreenActivity\r\nTotalTime: 1107\r\nWaitTime: 1113\r\nComplete\r\n",
+  "screenshot": ".private\\raw\\competitors\\htsc-cftlight\\screenshots\\20261118_103816_ai_home_2.png",
+  "ui_xml": ".private\\raw\\competitors\\htsc-cftlight\\ui-hierarchy\\20261118_103816_ai_home_2.xml",
+  "privacy": "raw private evidence; inspect and redact before publishing"
+}

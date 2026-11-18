@@ -1,12 +1,10 @@
-# Local-only evidence that may contain credentials, account identifiers, or holdings
-.private/
+# Private research repository: raw local evidence is intentionally versioned.
 
 # Android/build artifacts
 *.apk
 *.aab
 *.jks
 *.keystore
-*.log
 *.hprof
 
 # Tooling noise
@@ -21,6 +19,3 @@ node_modules/
 Thumbs.db
 .idea/
 .vscode/
-
-# Local-only authorized test account details
-docs/competitor-auth.md

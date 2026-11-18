@@ -1,0 +1,12 @@
+{
+  "package": "com.htsc.cftlight",
+  "activity_requested": "com.htsc.cftlight/com.lphtsccft.zhangle.startup.SplashScreenActivity",
+  "label": "agent_center",
+  "captured_at": "2026-11-18T10:38:21.884082+08:00",
+  "focus": "mCurrentFocus=Window{d5ced7b u0 com.htsc.cftlight/com.lphtsccft.zhangle.foundation.web.WebViewActivity}\nmFocusedApp=ActivityRecord{265858482 u0 com.htsc.cftlight/com.lphtsccft.zhangle.foundation.web.WebViewActivity t14170}",
+  "pid": 24463,
+  "start_output": "",
+  "screenshot": ".private\\raw\\competitors\\htsc-cftlight\\screenshots\\20261118_103821_agent_center.png",
+  "ui_xml": ".private\\raw\\competitors\\htsc-cftlight\\ui-hierarchy\\20261118_103821_agent_center.xml",
+  "privacy": "raw private evidence; inspect and redact before publishing"
+}

@@ -1,0 +1,270 @@
+2026-11-17 11:23:03.142 [TAFLogin][1:main] Login by network
+2026-11-17 11:23:03.443 [TAFLogin][571:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 11:23:03.443 [TAFLogin][571:TAFLoginService] Login with ExtraID: {}
+2026-11-17 11:23:03.443 [TAFLogin][571:TAFLoginService] Login for: background
+2026-11-17 11:23:03.490 [TAFLogin][571:TAFLoginService] Login for: background success
+2026-11-17 11:23:03.490 [TAFLogin][571:TAFLoginService] GUID changed: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 11:23:03.592 [TAFLogin][571:TAFLoginService] Token changed: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 11:23:03.634 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=40
+2026-11-17 11:23:03.678 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=45
+2026-11-17 11:23:03.781 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=103
+2026-11-17 11:23:05.811 [TAFLogin][1:main] Login by user interaction
+2026-11-17 11:23:08.823 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 11:23:09.031 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 11:23:09.031 [TAFLogin][571:TAFLoginService] Address updated without test:NONE
+2026-11-17 11:23:09.031 [TAFLogin][571:TAFLoginService] Address updated without test:NONE
+2026-11-17 11:23:09.032 [TAFLogin][571:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 11:23:09.032 [TAFLogin][571:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 11:23:09.032 [TAFLogin][571:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 11:23:09.032 [TAFLogin][571:TAFLoginService] Login with ExtraID: {}
+2026-11-17 11:23:09.032 [TAFLogin][571:TAFLoginService] Login for: active
+2026-11-17 11:23:09.079 [TAFLogin][571:TAFLoginService] Login for: active success
+2026-11-17 11:23:09.126 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=48
+2026-11-17 11:23:09.165 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=39
+2026-11-17 11:23:09.244 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=78
+2026-11-17 11:23:14.246 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 11:23:14.447 [TAFLogin][571:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 11:23:14.447 [TAFLogin][571:TAFLoginService] Address updated without test:NONE
+2026-11-17 11:23:14.447 [TAFLogin][571:TAFLoginService] Address updated without test:NONE
+2026-11-17 12:04:45.451 [TAFLogin][1:main] Login by user interaction
+2026-11-17 12:04:45.506 [TAFLogin][1:main] Login by network
+2026-11-17 12:04:45.810 [TAFLogin][561:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 12:04:45.810 [TAFLogin][561:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 12:04:45.810 [TAFLogin][561:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 12:04:45.810 [TAFLogin][561:TAFLoginService] Login with ExtraID: {}
+2026-11-17 12:04:45.810 [TAFLogin][561:TAFLoginService] Login for: active
+2026-11-17 12:04:45.946 [TAFLogin][561:TAFLoginService] Login for: active success
+2026-11-17 12:04:46.028 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=81
+2026-11-17 12:04:46.084 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=57
+2026-11-17 12:04:46.196 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=111
+2026-11-17 12:04:51.247 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 12:04:52.418 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 12:04:52.418 [TAFLogin][561:TAFLoginService] Address updated without test:NONE
+2026-11-17 12:04:52.418 [TAFLogin][561:TAFLoginService] Address updated without test:NONE
+2026-11-17 12:20:41.588 [TAFLogin][1:main] Login by user interaction
+2026-11-17 12:20:41.892 [TAFLogin][561:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 12:20:41.892 [TAFLogin][561:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 12:20:41.892 [TAFLogin][561:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 12:20:41.892 [TAFLogin][561:TAFLoginService] Login with ExtraID: {}
+2026-11-17 12:20:41.892 [TAFLogin][561:TAFLoginService] Login for: active
+2026-11-17 12:20:41.938 [TAFLogin][561:TAFLoginService] Login for: active success
+2026-11-17 12:20:41.977 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=40
+2026-11-17 12:20:42.009 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=32
+2026-11-17 12:20:42.092 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=83
+2026-11-17 12:20:47.258 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 12:20:47.531 [TAFLogin][561:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 12:20:47.532 [TAFLogin][561:TAFLoginService] Address updated without test:NONE
+2026-11-17 12:20:47.532 [TAFLogin][561:TAFLoginService] Address updated without test:NONE
+2026-11-17 13:58:06.470 [TAFLogin][1:main] Login by user interaction
+2026-11-17 13:58:06.533 [TAFLogin][1:main] Login by network
+2026-11-17 13:58:06.834 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 13:58:06.834 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 13:58:06.834 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 13:58:06.834 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 13:58:06.834 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 13:58:06.885 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 13:58:06.926 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=41
+2026-11-17 13:58:06.986 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=60
+2026-11-17 13:58:07.069 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=82
+2026-11-17 13:58:12.107 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 13:58:12.353 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 13:58:12.353 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 13:58:12.353 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:03:07.972 [TAFLogin][1:main] Login by user interaction
+2026-11-17 14:03:08.277 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 14:03:08.277 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 14:03:08.277 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 14:03:08.277 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 14:03:08.277 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 14:03:08.330 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 14:03:08.368 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=37
+2026-11-17 14:03:08.454 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=86
+2026-11-17 14:03:08.524 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=70
+2026-11-17 14:03:13.563 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 14:03:13.769 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 14:03:13.769 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:03:13.769 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:08:44.392 [TAFLogin][1:main] Login by user interaction
+2026-11-17 14:08:44.693 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 14:08:44.694 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 14:08:44.694 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 14:08:44.694 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 14:08:44.694 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 14:08:44.745 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 14:08:44.787 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=43
+2026-11-17 14:08:44.915 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=127
+2026-11-17 14:08:45.007 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=93
+2026-11-17 14:08:50.054 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 14:08:50.260 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 14:08:50.260 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:08:50.260 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:14:25.383 [TAFLogin][1:main] Login by user interaction
+2026-11-17 14:14:25.684 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 14:14:25.684 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 14:14:25.684 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 14:14:25.684 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 14:14:25.684 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 14:14:25.744 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 14:14:25.782 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=37
+2026-11-17 14:14:25.849 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=68
+2026-11-17 14:14:25.927 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=77
+2026-11-17 14:14:30.933 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 14:14:31.135 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 14:14:31.136 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:14:31.136 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:22:07.235 [TAFLogin][1:main] Login by user interaction
+2026-11-17 14:22:07.536 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 14:22:07.536 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 14:22:07.536 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 14:22:07.536 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 14:22:07.536 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 14:22:07.595 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 14:22:07.638 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=42
+2026-11-17 14:22:07.733 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=94
+2026-11-17 14:22:07.824 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=90
+2026-11-17 14:22:12.852 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 14:22:13.046 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 14:22:13.046 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:22:13.046 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:29:12.937 [TAFLogin][1:main] Login by user interaction
+2026-11-17 14:29:13.243 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 14:29:13.243 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 14:29:13.244 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 14:29:13.244 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 14:29:13.244 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 14:29:13.297 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 14:29:13.338 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=40
+2026-11-17 14:29:13.439 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=101
+2026-11-17 14:29:13.522 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=82
+2026-11-17 14:29:18.524 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 14:29:18.754 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 14:29:18.754 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 14:29:18.754 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:12:58.335 [TAFLogin][1:main] Login by user interaction
+2026-11-17 15:12:58.389 [TAFLogin][1:main] Login by network
+2026-11-17 15:12:58.690 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 15:12:58.690 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 15:12:58.690 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 15:12:58.690 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 15:12:58.690 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 15:12:58.735 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 15:12:58.772 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=36
+2026-11-17 15:12:58.809 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=37
+2026-11-17 15:12:58.880 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=71
+2026-11-17 15:13:03.881 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 15:13:04.083 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 15:13:04.083 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:13:04.083 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:18:37.986 [TAFLogin][1:main] Login by user interaction
+2026-11-17 15:18:38.290 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 15:18:38.290 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 15:18:38.290 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 15:18:38.290 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 15:18:38.290 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 15:18:38.344 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 15:18:38.386 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=41
+2026-11-17 15:18:38.463 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=78
+2026-11-17 15:18:38.555 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=91
+2026-11-17 15:18:43.558 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 15:18:43.718 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 15:18:43.718 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:18:43.718 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:23:18.433 [TAFLogin][1:main] Login by user interaction
+2026-11-17 15:23:18.484 [TAFLogin][1:main] Login by network
+2026-11-17 15:23:18.788 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 15:23:18.788 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 15:23:18.788 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 15:23:18.788 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 15:23:18.788 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 15:23:18.831 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 15:23:18.869 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=37
+2026-11-17 15:23:18.899 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=31
+2026-11-17 15:23:18.967 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=67
+2026-11-17 15:23:23.984 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 15:23:24.177 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 15:23:24.177 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:23:24.177 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:28:36.573 [TAFLogin][1:main] Login by user interaction
+2026-11-17 15:28:36.873 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 15:28:36.873 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 15:28:36.873 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 15:28:36.873 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 15:28:36.873 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 15:28:36.914 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 15:28:36.950 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=35
+2026-11-17 15:28:37.038 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=87
+2026-11-17 15:28:37.126 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=89
+2026-11-17 15:28:42.132 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 15:28:42.668 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 15:28:42.668 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:28:42.668 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:55:03.670 [TAFLogin][1:main] Login by user interaction
+2026-11-17 15:55:03.974 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 15:55:03.974 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 15:55:03.974 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 15:55:03.974 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 15:55:03.974 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 15:55:04.026 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 15:55:04.064 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=38
+2026-11-17 15:55:04.160 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=95
+2026-11-17 15:55:04.260 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=99
+2026-11-17 15:55:09.276 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 15:55:09.485 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 15:55:09.485 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 15:55:09.485 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:13:23.886 [TAFLogin][1:main] Login by user interaction
+2026-11-17 16:13:24.188 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 16:13:24.188 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 16:13:24.189 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 16:13:24.189 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 16:13:24.189 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 16:13:24.233 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 16:13:24.272 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=38
+2026-11-17 16:13:24.352 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=80
+2026-11-17 16:13:24.440 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=89
+2026-11-17 16:13:30.476 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 16:13:30.651 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 16:13:30.651 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:13:30.651 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:32:44.197 [TAFLogin][1:main] Login by user interaction
+2026-11-17 16:32:44.501 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 16:32:44.501 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 16:32:44.501 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 16:32:44.501 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 16:32:44.501 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 16:32:44.547 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 16:32:44.595 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=47
+2026-11-17 16:32:44.675 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=80
+2026-11-17 16:32:44.757 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=82
+2026-11-17 16:32:49.776 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 16:32:49.957 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 16:32:49.958 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:32:49.958 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:38:11.859 [TAFLogin][1:main] Login by user interaction
+2026-11-17 16:38:12.164 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 16:38:12.164 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 16:38:12.164 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 16:38:12.164 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 16:38:12.164 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 16:38:12.263 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 16:38:12.301 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=38
+2026-11-17 16:38:12.390 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=89
+2026-11-17 16:38:12.461 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=70
+2026-11-17 16:38:17.464 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 16:38:17.651 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 16:38:17.652 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:38:17.652 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:43:46.951 [TAFLogin][1:main] Login by user interaction
+2026-11-17 16:43:47.253 [TAFLogin][582:TAFLoginService] Login with XUA: SN=ADR_dongzheng.ai.android.phone&VN=100_1.0.0_100_GA&MO=MEP-AN00&VC=HONOR&RV=HONOR_10DLDLD175C00E170&OS=36&CHID=9501_9501&MN=sdk
+2026-11-17 16:43:47.253 [TAFLogin][582:TAFLoginService] Login with GUID: 670ea9665c475035ee5360b7e5f42244
+2026-11-17 16:43:47.253 [TAFLogin][582:TAFLoginService] Login with Token: 0b282353dbfa924b515e0e84150132f7ea
+2026-11-17 16:43:47.253 [TAFLogin][582:TAFLoginService] Login with ExtraID: {}
+2026-11-17 16:43:47.253 [TAFLogin][582:TAFLoginService] Login for: active
+2026-11-17 16:43:47.351 [TAFLogin][582:TAFLoginService] Login for: active success
+2026-11-17 16:43:47.385 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup | null | 1 | d=34
+2026-11-17 16:43:47.465 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-hq-pre.dgzq.com.cn:10011/tgwup/ | null | 0 | d=79
+2026-11-17 16:43:47.543 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://zzb-stock.dgzq.com.cn:18080/tgwup/ | [commocr] | 0 | d=79
+2026-11-17 16:43:52.562 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | http://yphq-test-xc.dgzq.com.cn:2006/tgwup | [jjzq, pickstock_newsearch, pickstock_strategy_new] | 0 | d=9223372036854775807
+2026-11-17 16:43:52.776 [TAFLogin][582:TAFLoginService] Address updated: 1 | null | https://testoa.dgzq.com.cn/tgwup | [dgzqTgUser] | 1 | d=9223372036854775807
+2026-11-17 16:43:52.776 [TAFLogin][582:TAFLoginService] Address updated without test:NONE
+2026-11-17 16:43:52.776 [TAFLogin][582:TAFLoginService] Address updated without test:NONE

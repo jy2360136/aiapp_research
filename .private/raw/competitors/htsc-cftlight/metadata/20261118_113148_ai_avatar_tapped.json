@@ -1,0 +1,12 @@
+{
+  "package": "com.htsc.cftlight",
+  "activity_requested": "com.lphtsccft.light.MainActivity",
+  "label": "ai_avatar_tapped",
+  "captured_at": "2026-11-18T11:31:48.006046+08:00",
+  "focus": "mCurrentFocus=Window{267f u0 com.htsc.cftlight/com.lphtsccft.light.DialogueListActivity}\nmFocusedApp=ActivityRecord{202179204 u0 com.htsc.cftlight/com.lphtsccft.light.DialogueListActivity t14177}",
+  "pid": 4536,
+  "start_output": "",
+  "screenshot": ".private\\raw\\competitors\\htsc-cftlight\\screenshots\\20261118_113148_ai_avatar_tapped.png",
+  "ui_xml": ".private\\raw\\competitors\\htsc-cftlight\\ui-hierarchy\\20261118_113148_ai_avatar_tapped.xml",
+  "privacy": "raw private evidence; inspect and redact before publishing"
+}
