@@ -61,7 +61,7 @@ function getJson(url) {
     mobile: false
   });
 
-  const mainUrl = pathToFileURL('D:/aiapp竞品调研2/掌小宝AI入口调整原型.html').href;
+  const mainUrl = pathToFileURL('D:/aiapp竞品调研/prototypes/entry_changes/main_top_navigation.html').href;
   await call('Page.navigate', { url: mainUrl });
   await sleep(900);
   const mainState = JSON.parse(await evaluate(`JSON.stringify({
@@ -74,9 +74,18 @@ function getJson(url) {
   })`));
   await evaluate(`document.querySelector('#prototype-a').scrollIntoView({block:'start'}); true`);
   await sleep(180);
-  await screenshot('D:/aiapp竞品调研2/prototype-assets/verify-main-top-cdp.png');
+  await screenshot('D:/aiapp竞品调研/prototypes/entry_changes/previews/verify-main-top-cdp.png');
+  await evaluate(`document.querySelector('.phone-a [data-open-settings]').click(); true`);
+  await sleep(150);
+  const settingsState = JSON.parse(await evaluate(`JSON.stringify({
+    active: document.querySelector('.phone-a [data-view="settings"]').classList.contains('active'),
+    backVisible: (() => { const el = document.querySelector('.phone-a [data-view="settings"] [data-back]'); const r = el && el.getBoundingClientRect(); return !!(r && r.width > 0 && r.height > 0); })(),
+    title: document.querySelector('.phone-a [data-view="settings"] h2')?.textContent.trim() || '',
+    titleCentered: (() => { const el = document.querySelector('.phone-a [data-view="settings"] h2'); if (!el) return false; const r = el.getBoundingClientRect(); const sr = el.closest('.screen').getBoundingClientRect(); return Math.abs((r.left + r.width/2) - (sr.left + sr.width/2)) < 2; })()
+  })`));
+  await screenshot('D:/aiapp竞品调研/prototypes/entry_changes/previews/verify-main-settings-cdp.png');
 
-  const bottomUrl = pathToFileURL('D:/aiapp竞品调研2/掌小宝底部Dock方案原型.html').href;
+  const bottomUrl = pathToFileURL('D:/aiapp竞品调研/prototypes/entry_changes/bottom_dock_variant.html').href;
   await call('Page.navigate', { url: bottomUrl });
   await sleep(900);
   const bottomState = JSON.parse(await evaluate(`JSON.stringify({
@@ -88,7 +97,7 @@ function getJson(url) {
     hasDock: !!document.querySelector('.phone-b .bottom-dock'),
     hasChatLaunch: !!document.querySelector('.phone-b .chat-launch')
   })`));
-  await screenshot('D:/aiapp竞品调研2/prototype-assets/verify-bottom-dock-cdp.png');
+  await screenshot('D:/aiapp竞品调研/prototypes/entry_changes/previews/verify-bottom-dock-cdp.png');
   await evaluate(`document.querySelector('.phone-b [data-screen="trade"]').click(); true`);
   await sleep(120);
   const interactionState = JSON.parse(await evaluate(`JSON.stringify({
@@ -97,7 +106,7 @@ function getJson(url) {
     promptText: document.querySelector('.phone-b .prompt-rail').textContent.trim()
   })`));
 
-  console.log(JSON.stringify({ mainState, bottomState, interactionState, exceptions }, null, 2));
+  console.log(JSON.stringify({ mainState, settingsState, bottomState, interactionState, exceptions }, null, 2));
   ws.close();
 })().catch((error) => {
   console.error(error);

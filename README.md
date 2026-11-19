@@ -16,13 +16,12 @@
 - [掌小宝页面地图](research/target-dongzheng-ai/navigation/v1.0.0_20261118/page-map.md)
 - [自动化脚本说明](automation/README.md)
 
-## 原型文件
+## 原型图
 
-- `掌小宝AI入口调整原型.html`：推荐落地页，包含介绍页和顶部业务导航方案，共 2 页。
-- `掌小宝底部Dock方案原型.html`：独立拆分的底部 Dock 探索方案，只保留底部导航与 AI 输入设计。
-- `掌小宝AI入口调整原型_预览.png`：主原型首页预览。
-- `掌小宝底部Dock方案原型_预览.png`：底部 Dock 独立页面预览。
-- `prototype-assets/verify-split.js`：浏览器级结构与交互验证脚本。
+- [原型图总目录](prototypes/README.md)
+- [入口与功能分区调整](prototypes/entry_changes/README.md)
+- [主原型：顶部业务导航](prototypes/entry_changes/main_top_navigation.html)
+- [独立方案：底部 Dock](prototypes/entry_changes/bottom_dock_variant.html)
 
 ## 产品与测试范围
 
@@ -64,7 +63,7 @@ research/
 
 ## 隐私与安全
 
-- 原始截图、原始 UI XML、原始 logcat 若可能包含账号、持仓、金额、身份信息，只保存在本机 `.private/`，不会提交 Git。`.private` 是可追溯原始证据，但当前结论以 `docs/` 和版本化 `research/` 为准。
+- 仓库已设置为 Private，用于内部开发与家庭电脑同步。原始截图、UI XML 和日志保存在 `.private/`，并纳入私有仓库版本控制。当前结论以 `docs/` 和版本化 `research/` 为准。
 - 提交到 Git 的竞品截图已去除手机状态栏，避免暴露无关通知和个人信息。
 - 自动遍历不点击交易、转账、删除、退出登录、支付及其他会改变资金/账户状态的动作。
 - 仓库只保留异常摘要、复现步骤和必要且已脱敏的堆栈片段。
