@@ -1,0 +1,13 @@
+{
+  "package": "com.eastmoney.innovation.android",
+  "activity_requested": "com.eastmoney.android.account.activity.QSPassportLoginActivity",
+  "label": "v1.6.0_step01_login_page",
+  "captured_at": "2026-11-18T13:41:06.769985+08:00",
+  "focus": "mCurrentFocus=Window{5fbdc67 u0 com.leagsoft.emm/com.leagsoft.emm.app.activity.MainActivity}\nmFocusedApp=ActivityRecord{260803914 u0 com.leagsoft.emm/.app.activity.MainActivity t14189}",
+  "pid": 16315,
+  "start_output": "",
+  "screenshot": "research/competitors/eastmoney-innovation/v1.6.0_20261118/screenshots/raw/20261118_134106_v1_6_0_step01_login_page.png",
+  "ui_xml": "research/competitors/eastmoney-innovation/v1.6.0_20261118/ui-hierarchy/raw/20261118_134106_v1_6_0_step01_login_page.xml",
+  "ui_xml_error": null,
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

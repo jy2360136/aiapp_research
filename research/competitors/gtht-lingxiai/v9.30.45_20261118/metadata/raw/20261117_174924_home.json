@@ -1,0 +1,12 @@
+{
+  "package": "com.gtht.lingxiai",
+  "activity_requested": "com.gtht.lingxiai/com.gtja.home.InitScreen",
+  "label": "home",
+  "captured_at": "2026-11-17T17:49:24.041579+08:00",
+  "focus": "mCurrentFocus=Window{d0a6fb0 u0 com.gtht.lingxiai/com.gtja.home.lxaikit.aiapp.AIMainScreen}\nmFocusedApp=ActivityRecord{190860544 u0 com.gtht.lingxiai/com.gtja.home.lxaikit.aiapp.AIMainScreen t14085}",
+  "pid": 27146,
+  "start_output": "Starting: Intent { cmp=com.gtht.lingxiai/com.gtja.home.InitScreen }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.gtht.lingxiai/com.gtja.home.InitScreen\r\nTotalTime: 844\r\nWaitTime: 850\r\nComplete\r\n",
+  "screenshot": "research/competitors/gtht-lingxiai/v9.30.45_20261118/screenshots/raw/20261117_174924_home.png",
+  "ui_xml": "research/competitors/gtht-lingxiai/v9.30.45_20261118/ui-hierarchy/raw/20261117_174924_home.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

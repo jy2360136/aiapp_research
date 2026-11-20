@@ -5,7 +5,7 @@
 - 被测包：`dongzheng.ai.android.phone`
 - 版本：`1.0.0`（versionCode 100，targetSdk 33，可调试包）
 - 网络：同一测试手机，移动网络；未同时进行大文件下载
-- 说明：以下结论以截图、UIAutomator 界面树、`dumpsys meminfo`、`dumpsys activity exit-info` 为证据。原始证据保存在本机 `.private/`，仓库仅保留脱敏摘要和公开截图。
+- 说明：以下结论以截图、UIAutomator 界面树、`dumpsys meminfo`、`dumpsys activity exit-info` 为证据。原始证据保存在对应版本目录的 `research/**/raw/`，仓库同时保留脱敏摘要和公开截图。
 
 ## 结论总览
 

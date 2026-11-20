@@ -1,0 +1,13 @@
+{
+  "package": "com.eastmoney.innovation.android",
+  "activity_requested": "com.eastmoney.android.hybrid.internal.preload.MainEMHybridActivity",
+  "label": "v1.6.0_step02_suggestion_running",
+  "captured_at": "2026-11-18T13:52:42.194429+08:00",
+  "focus": "mCurrentFocus=Window{39cba15 u0 com.eastmoney.innovation.android/com.eastmoney.android.account.activity.QSPassportLoginActivity}\nmFocusedApp=ActivityRecord{21693703 u0 com.eastmoney.innovation.android/com.eastmoney.android.account.activity.QSPassportLoginActivity t14193}",
+  "pid": 16315,
+  "start_output": "",
+  "screenshot": "research/competitors/eastmoney-innovation/v1.6.0_20261118/screenshots/raw/20261118_135242_v1_6_0_step02_suggestion_running.png",
+  "ui_xml": "research/competitors/eastmoney-innovation/v1.6.0_20261118/ui-hierarchy/raw/20261118_135242_v1_6_0_step02_suggestion_running.xml",
+  "ui_xml_error": "syntax error: line 1, column 0",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

@@ -13,7 +13,7 @@ from PIL import Image
 from adb_common import Adb, TARGET_ACTIVITY, TARGET_PACKAGE
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "research" / "target-dongzheng-ai" / "01-screenshots" / "startup"
+RESEARCH = ROOT / "research" / "target-dongzheng-ai"
 
 
 def main() -> int:
@@ -36,8 +36,11 @@ def main() -> int:
     start_elapsed = time.perf_counter() - t0
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
     stamp = now.strftime("%Y%m%d_%H%M%S")
-    out = OUT / f"{stamp}_{args.label}"
-    out.mkdir(parents=True, exist_ok=True)
+    version_dir = f"v{adb.package_version_name(args.package)}_{now:%Y%m%d}"
+    shot_dir = RESEARCH / "screenshots" / version_dir / "startup" / "raw" / f"{stamp}_{args.label}"
+    meta_dir = RESEARCH / "metadata" / version_dir / "startup" / "raw"
+    shot_dir.mkdir(parents=True, exist_ok=True)
+    meta_dir.mkdir(parents=True, exist_ok=True)
     records = []
     for order, elapsed in enumerate(intervals):
         delay = elapsed - (time.perf_counter() - t0)
@@ -47,10 +50,11 @@ def main() -> int:
         with Image.open(io.BytesIO(png)) as image:
             image.verify()
         actual = time.perf_counter() - t0
-        path = out / f"{order:02d}_{actual:.2f}s.png"
+        path = shot_dir / f"{order:02d}_{actual:.2f}s.png"
         path.write_bytes(png)
         records.append({"target_seconds": elapsed, "actual_seconds": round(actual, 3), "path": str(path.relative_to(ROOT))})
-    (out / "metadata.json").write_text(json.dumps({
+    meta_path = meta_dir / f"{stamp}_{args.label}_metadata.json"
+    meta_path.write_text(json.dumps({
         "label": args.label,
         "started_at": now.isoformat(),
         "activity": args.activity,
@@ -59,7 +63,7 @@ def main() -> int:
         "focus": adb.current_focus(),
         "screenshots": records,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"label": args.label, "start_return_seconds": round(start_elapsed, 3), "folder": str(out), "screenshots": records}, ensure_ascii=False, indent=2))
+    print(json.dumps({"label": args.label, "start_return_seconds": round(start_elapsed, 3), "screenshots": str(shot_dir), "metadata": str(meta_path), "records": records}, ensure_ascii=False, indent=2))
     return 0
 
 

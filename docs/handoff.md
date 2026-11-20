@@ -12,7 +12,7 @@
 - GitHub：https://github.com/jy2360136/aiapp_research
 - 当前默认分支：`main`
 - 仓库状态：Private，已确认用于公司/家庭电脑内部同步。
-- 原始敏感证据保存在 `.private/`，并随私有仓库同步。
+- 原始敏感证据按产品和版本保存在 `research/**/raw/`，并随私有仓库同步；顶层 `.private/` 已删除。
 
 ## 2. 设备与被测 App
 
@@ -38,9 +38,9 @@
 
 - `research/target-dongzheng-ai/archive/`
 - `research/competitors/archive/`
-- `.private/`
+- `research/**/raw/`
 
-以上目录只用于历史追溯或本机敏感证据。旧版本截图和结论不能直接当作当前版本结论。
+以上目录只用于历史追溯或原始证据核验。旧版本截图和结论不能直接当作当前版本结论。
 
 ## 5. 当前测试状态
 
@@ -91,15 +91,24 @@
 research/target-dongzheng-ai/
   screenshots/v1.0.0_20261118/
     README.md
+    raw/
     01-盯盘/  02-对话/  03-自选/  04-交易/  05-设置与协议/
   ui-hierarchy/v1.0.0_20261118/
+    raw/
   logs/v1.0.0_20261118/
+    raw/
+    app-internal/
+  metadata/v1.0.0_20261118/
+    raw/
 
 research/competitors/
   <product>/v<version>_<date>/
     README.md
     screenshots/01-AI入口/
     screenshots/02-AI问答/
+    screenshots/raw/
+    ui-hierarchy/raw/
+    metadata/raw/
 ```
 
 命名规则：`stepNN_操作_结果.png`。每个版本 README 必须写版本号/包名/日期、测试范围、当前结论、剩余问题、下一轮优先看哪些文件。
@@ -135,7 +144,7 @@ research/competitors/
 ```text
 请先阅读 docs/handoff.md、docs/README.md、docs/executive-summary.md 和 docs/bug-reports-v1.0.0_20261118.md。
 先确认当前掌小宝和竞品的最新版本号，再按 research/ 下的版本化目录继续。
-不要读取 archive/ 和 .private/ 作为第一入口；旧截图只用于回归对比。
+不要读取 archive/ 和 `raw/` 作为第一入口；旧截图只用于回归对比。
 先做掌小宝新版本回归，再做 TalkBack 和 10 轮内存复测，最后补妙想 Work 模式与其余竞品深测。
 截图必须按功能分区和 stepNN 顺序命名，并写版本 README。
 ```

@@ -13,7 +13,7 @@ from PIL import Image
 from adb_common import Adb, TARGET_ACTIVITY, TARGET_PACKAGE
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "research" / "target-dongzheng-ai" / "03-logs" / "ai-trials"
+RESEARCH = ROOT / "research" / "target-dongzheng-ai"
 
 
 def tap(adb: Adb, x: int, y: int, wait: float = 0.7) -> None:
@@ -31,8 +31,12 @@ def main() -> int:
     adb = Adb()
     adb.require_device()
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
-    out = OUT / now.strftime("%Y%m%d_%H%M%S")
-    out.mkdir(parents=True, exist_ok=True)
+    version_dir = f"v{adb.package_version_name(TARGET_PACKAGE)}_{now:%Y%m%d}"
+    trial_name = now.strftime("%Y%m%d_%H%M%S")
+    shot_dir = RESEARCH / "screenshots" / version_dir / "ai-trials" / "raw"
+    ui_dir = RESEARCH / "ui-hierarchy" / version_dir / "ai-trials" / "raw"
+    meta_dir = RESEARCH / "metadata" / version_dir / "ai-trials" / "raw"
+    for folder in (shot_dir, ui_dir, meta_dir): folder.mkdir(parents=True, exist_ok=True)
     rows = []
     for trial in range(1, args.trials + 1):
         adb.shell_args(["am", "force-stop", TARGET_PACKAGE])
@@ -51,10 +55,10 @@ def main() -> int:
         png = adb.screenshot_png()
         with Image.open(io.BytesIO(png)) as image:
             image.verify()
-        shot = out / f"trial_{trial:02d}.png"
+        shot = shot_dir / f"{trial_name}_trial_{trial:02d}.png"
         shot.write_bytes(png)
         xml_text = adb.ui_xml()
-        ui = out / f"trial_{trial:02d}.xml"
+        ui = ui_dir / f"{trial_name}_trial_{trial:02d}.xml"
         ui.write_text(xml_text, encoding="utf-8")
         rows.append({
             "trial": trial,
@@ -67,8 +71,9 @@ def main() -> int:
             "response_text_in_tree": "行情" in xml_text or "开盘价" in xml_text or "K线" in xml_text,
             "captured_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(),
         })
-    (out / "metadata.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"folder": str(out), "rows": rows}, ensure_ascii=False, indent=2))
+    meta_path = meta_dir / f"{trial_name}_metadata.json"
+    meta_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps({"screenshots": str(shot_dir), "ui_xml": str(ui_dir), "metadata": str(meta_path), "rows": rows}, ensure_ascii=False, indent=2))
     return 0
 
 

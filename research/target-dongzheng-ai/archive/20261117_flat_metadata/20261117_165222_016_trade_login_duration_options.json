@@ -6,7 +6,7 @@
   "focus": "mCurrentFocus=Window{b99992f u0 dongzheng.ai.android.phone/com.zxb.trade.TradeContainerActivity}\nmFocusedApp=ActivityRecord{238928605 u0 dongzheng.ai.android.phone/com.zxb.trade.TradeContainerActivity t14073}",
   "signature": "d7772ae8e811029f",
   "package": "dongzheng.ai.android.phone",
-  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_165222_016_trade_login_duration_options.png",
-  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165222_016_trade_login_duration_options.xml",
-  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_165222_016_trade_login_duration_options_summary.md"
+  "screenshot": "research/target-dongzheng-ai/archive/20261117_flat_screenshots/20261117_165222_016_trade_login_duration_options.png",
+  "ui_xml": "research/target-dongzheng-ai/archive/20261117_flat_ui-hierarchy/20261117_165222_016_trade_login_duration_options.xml",
+  "summary": "research/target-dongzheng-ai/archive/20261117_flat_ui-hierarchy/20261117_165222_016_trade_login_duration_options_summary.md"
 }

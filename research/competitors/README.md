@@ -7,6 +7,7 @@
 ```text
 competitors/
   hexin-stockassistant/v5.3.1_20261118/screenshots/01-AI入口/
+  hexin-stockassistant/v5.3.1_20261118/screenshots/raw/
   eastmoney-innovation/v1.6.0_20261118/screenshots/01-登录与权限/
   gtht-lingxiai/v9.30.45_20261118/screenshots/01-AI入口/
   htsc-cftlight/v2.0.6_20261118/screenshots/01-AI入口/
@@ -27,5 +28,5 @@ competitors/
 ## 重要说明
 
 - 竞品截图已裁掉系统状态栏。
-- 手机号、验证码、账号中心等敏感截图保存在 `.private/`，随 Private 仓库同步；分享时只使用脱敏版本。
+- 手机号、验证码、账号中心等原始截图保存在对应版本目录的 `screenshots/raw/`，UI XML 和元数据分别在 `ui-hierarchy/raw/`、`metadata/raw/`；不得对外分享原始材料。
 - 本轮实测的是已安装版本，后续必须先记录版本号再比较。

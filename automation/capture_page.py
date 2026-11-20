@@ -17,7 +17,6 @@ from adb_common import Adb, TARGET_PACKAGE
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research" / "target-dongzheng-ai"
-PRIVATE = ROOT / ".private" / "raw" / "target-dongzheng-ai"
 SENSITIVE = re.compile(
     r"(总资产|总市值|可用资金|可取|参考盈亏|资金持仓|持仓|账户号|资金账号|身份证|手机号|姓名|买入|卖出|撤单|银证转账|当日委托|当日成交|条件单)"
 )
@@ -152,40 +151,33 @@ def main() -> int:
         + focus
     )
 
+    version_dir = f"v{adb.package_version_name(TARGET_PACKAGE)}_{now:%Y%m%d}"
+    raw_shots = RESEARCH / "screenshots" / version_dir / "raw"
+    raw_ui = RESEARCH / "ui-hierarchy" / version_dir / "raw"
+    processed_ui = RESEARCH / "ui-hierarchy" / version_dir
+    meta_dir = RESEARCH / "metadata" / version_dir / "raw"
+    shot_path = raw_shots / f"{stamp}_{safe_label}.png"
+    xml_path = raw_ui / f"{stamp}_{safe_label}.xml"
+    meta_path = meta_dir / f"{stamp}_{safe_label}.json"
+    public_summary = processed_ui / f"{stamp}_{safe_label}_summary.md"
+    shot_path.parent.mkdir(parents=True, exist_ok=True)
+    xml_path.parent.mkdir(parents=True, exist_ok=True)
+    public_summary.parent.mkdir(parents=True, exist_ok=True)
+    meta_path.parent.mkdir(parents=True, exist_ok=True)
+    shot_path.write_bytes(png)
+    xml_path.write_text(xml_text, encoding="utf-8")
     if actual_scope == "sensitive":
-        out_dir = PRIVATE
-        shot_path = out_dir / "01-screenshots" / f"{stamp}_{safe_label}.png"
-        xml_path = out_dir / "02-ui-hierarchy" / f"{stamp}_{safe_label}.xml"
-        public_xml = RESEARCH / "02-ui-hierarchy" / f"{stamp}_{safe_label}_redacted.xml"
-        meta_path = RESEARCH / "00-metadata" / f"{stamp}_{safe_label}.json"
-        public_summary = RESEARCH / "02-ui-hierarchy" / f"{stamp}_{safe_label}_summary.md"
-        shot_path.parent.mkdir(parents=True, exist_ok=True)
-        xml_path.parent.mkdir(parents=True, exist_ok=True)
-        shot_path.write_bytes(png)
-        xml_path.write_text(xml_text, encoding="utf-8")
+        public_xml = processed_ui / f"{stamp}_{safe_label}_redacted.xml"
         public_xml.write_text(sanitize_xml(root), encoding="utf-8")
         public_records = node_records(root, redact=True)
-        public_summary.write_text(summary_markdown(args.label, {
-            "captured_at": now.isoformat(),
-            "focus": focus,
-            "signature": signature,
-            "scope": actual_scope,
-        }, public_records), encoding="utf-8")
     else:
-        shot_path = RESEARCH / "01-screenshots" / f"{stamp}_{safe_label}.png"
-        xml_path = RESEARCH / "02-ui-hierarchy" / f"{stamp}_{safe_label}.xml"
-        meta_path = RESEARCH / "00-metadata" / f"{stamp}_{safe_label}.json"
-        public_summary = RESEARCH / "02-ui-hierarchy" / f"{stamp}_{safe_label}_summary.md"
-        shot_path.parent.mkdir(parents=True, exist_ok=True)
-        xml_path.parent.mkdir(parents=True, exist_ok=True)
-        shot_path.write_bytes(png)
-        xml_path.write_text(xml_text, encoding="utf-8")
-        public_summary.write_text(summary_markdown(args.label, {
-            "captured_at": now.isoformat(),
-            "focus": focus,
-            "signature": signature,
-            "scope": actual_scope,
-        }, records), encoding="utf-8")
+        public_records = records
+    public_summary.write_text(summary_markdown(args.label, {
+        "captured_at": now.isoformat(),
+        "focus": focus,
+        "signature": signature,
+        "scope": actual_scope,
+    }, public_records), encoding="utf-8")
 
     meta = {
         "label": args.label,
@@ -195,9 +187,11 @@ def main() -> int:
         "focus": focus,
         "signature": signature,
         "package": TARGET_PACKAGE,
+        "version_dir": version_dir,
         "screenshot": str(shot_path.relative_to(ROOT)),
         "ui_xml": str(xml_path.relative_to(ROOT)),
         "summary": str(public_summary.relative_to(ROOT)),
+        "privacy": "raw evidence; inspect and redact before sharing",
     }
     meta_path.parent.mkdir(parents=True, exist_ok=True)
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")

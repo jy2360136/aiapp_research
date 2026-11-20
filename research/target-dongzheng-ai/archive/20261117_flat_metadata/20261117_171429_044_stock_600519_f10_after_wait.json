@@ -6,7 +6,7 @@
   "focus": "mCurrentFocus=Window{e4c5524 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity}\nmFocusedApp=ActivityRecord{133626002 u0 dongzheng.ai.android.phone/com.upchina.market.stock.MarketStockActivity t14073}",
   "signature": "8011f16e061e2409",
   "package": "dongzheng.ai.android.phone",
-  "screenshot": "research\\target-dongzheng-ai\\01-screenshots\\20261117_171429_044_stock_600519_f10_after_wait.png",
-  "ui_xml": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_171429_044_stock_600519_f10_after_wait.xml",
-  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261117_171429_044_stock_600519_f10_after_wait_summary.md"
+  "screenshot": "research/target-dongzheng-ai/archive/20261117_flat_screenshots/20261117_171429_044_stock_600519_f10_after_wait.png",
+  "ui_xml": "research/target-dongzheng-ai/archive/20261117_flat_ui-hierarchy/20261117_171429_044_stock_600519_f10_after_wait.xml",
+  "summary": "research/target-dongzheng-ai/archive/20261117_flat_ui-hierarchy/20261117_171429_044_stock_600519_f10_after_wait_summary.md"
 }

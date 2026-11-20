@@ -155,7 +155,7 @@
   .breadth .up,.breadth .down { font-weight:700; }
   .breadth-bar { margin-top:6px; height:7px; border-radius:99px; overflow:hidden; display:flex; background:#dce1ea; }
   .breadth-bar i:first-child{width:24%;background:#f15d5d}.breadth-bar i:nth-child(2){width:5%;background:#b4bac4}.breadth-bar i:last-child{flex:1;background:#32ad70}
-  .board-card { margin-top:11px; padding:14px; }
+  .board-card { margin:11px -10px 0; padding:14px; border-radius:16px; }
   .chart-head { display:flex; align-items:center; justify-content:space-between; font-size:19px; font-weight:800; }
   .chart-box { margin-top:10px; height:132px; border:1px solid #eef1f5; border-radius:12px; position:relative; overflow:hidden; background:linear-gradient(180deg,#fbfcff,#fff); }
   .chart-box svg { width:100%; height:100%; }
@@ -309,6 +309,122 @@
     .phone-stage::before { display:none; }
     .prototype-copy { display:none; }
   }
+
+  /* Align prototype chrome and components with 掌小宝 v1.0.0 screenshots. */
+  .top-chrome {
+    background:
+      radial-gradient(circle at 0% 96%, rgba(255, 227, 167, .74), transparent 29%),
+      radial-gradient(circle at 97% 0%, rgba(194, 157, 255, .43), transparent 35%),
+      linear-gradient(118deg, #eff4ff 0%, #edf2ff 50%, #f5eeff 100%);
+  }
+  .phone.secondary .top-chrome { background:#f7f9fe; }
+  .phone { background:#eef4fe; }
+  .app-header { grid-template-columns:44px 1fr 84px; padding:0 10px; border-bottom-color:rgba(122, 118, 150, .07); }
+  .icon-btn { border-radius:12px; }
+  .icon-btn:hover { background:transparent; opacity:.72; }
+  .nav-tabs { gap:15px; }
+  .nav-tab { padding:20px 0 15px; font-size:15px; font-weight:600; color:#4d5260; }
+  .nav-tab.active { font-size:21px; font-weight:800; color:#11131a; transform:translateY(-1px); }
+  .nav-tab.active::after {
+    width:39px; height:5px; bottom:9px; border-radius:7px;
+    transform:translateX(-50%) rotate(-7deg);
+    background:linear-gradient(90deg,#39c8ff 0%,#5a78ff 48%,#a367e9 75%,#dd82df 100%);
+    box-shadow:none;
+  }
+  .header-search { width:34px; height:38px; }
+  .header-search .icon { width:24px; height:24px; stroke-width:1.9; }
+  .ai-orb { width:36px; height:36px; padding:2px; box-shadow:0 4px 13px rgba(92,104,255,.24); }
+  .ai-orb::before { inset:-3px; opacity:.40; }
+  .ai-orb .icon { width:19px; height:19px; }
+  .screen { padding:0 10px 145px; }
+  .card { background:#fff; border:0; border-radius:18px; box-shadow:0 7px 20px rgba(55,70,110,.055); }
+  .hero { height:138px; margin:0 -10px 10px; border-radius:0 0 20px 20px; }
+  .section-head { padding:5px 2px 11px; }
+  .section-head h3 { font-size:19px; }
+  .pill { height:22px; padding:0 8px; font-size:11px; color:#ef6258; background:#fff1ef; }
+  .market-card { padding:14px; margin:-18px -10px 0; border-radius:16px; }
+  .index-card { border-radius:14px; padding:12px 5px 11px; }
+  .index-name { font-size:12.5px; }
+  .index-value { margin-top:6px; font-size:20px; }
+  .index-change { margin-top:5px; font-size:10.5px; }
+  .market-summary { margin-top:10px; border-radius:14px; background:#f2f5ff; padding:12px; }
+  .board-card { margin-top:11px; padding:14px; }
+  .chart-head { font-size:19px; }
+  .chart-box { height:133px; border-color:#eef1f6; border-radius:11px; }
+  .watch-index-strip { gap:8px; margin-bottom:11px; }
+  .watch-index { border-radius:14px; padding:12px 5px 10px; }
+  .watch-index .index-name { font-size:12px; }
+  .watch-index .index-value { font-size:20px; }
+  .watch-index .index-change { font-size:11px; }
+  .watchlist-card { margin:0 -10px; border-radius:20px 20px 0 0; box-shadow:none; border-bottom:0; }
+  .watchlist-top { padding:17px 15px 6px; }
+  .segmented { gap:19px; font-size:17px; }
+  .segmented .selected::after { bottom:-8px; height:4px; background:#4f70f6; }
+  .watch-tools { gap:14px; }
+  .watch-tools .icon { width:24px; height:24px; stroke-width:1.8; }
+  .stock-table th { padding:15px 10px 8px; font-size:11.5px; }
+  .stock-table td { height:54px; padding:10px; }
+  .stock-name { font-size:17px; }
+  .stock-code { font-size:11.5px; }
+  .num { font-size:16px; }
+  .add-stock-row { padding:17px 0 20px; font-size:16px; }
+  .add-stock-icon { width:24px; height:24px; }
+  .chat-screen { background:#eef4fe; }
+  .chat-hero { height:96px; margin:0 -10px; }
+  .chat-mascot { width:110px; right:7px; top:-2px; }
+  .assistant-card { margin-left:6px; margin-right:6px; padding:16px; border:0; border-radius:18px; box-shadow:0 7px 20px rgba(58,73,114,.07); }
+  .user-line { margin-left:8px; margin-right:8px; }
+  .thinking-card, .answer-card { margin-left:6px; margin-right:6px; }
+  .user-bubble { border-radius:16px; background:linear-gradient(135deg,#e7edff,#f0e8ff); }
+  .thinking-card { border:0; border-radius:18px; box-shadow:0 7px 20px rgba(58,73,114,.06); }
+  .thinking-title .left { color:#4268f3; }
+  .thinking-title small { color:#a4abb8; }
+  .chat-settings-fab {
+    position:absolute; right:20px; bottom:150px; width:40px; height:40px; border:0; border-radius:13px;
+    display:grid; place-items:center; color:#fff; cursor:pointer; z-index:8;
+    background:linear-gradient(145deg,#c7cbd5,#aeb5c3 55%,#b9becb);
+    box-shadow:0 6px 16px rgba(96,106,126,.16);
+  }
+  .chat-settings-fab .icon { width:25px; height:25px; stroke-width:1.8; }
+  .ai-dock { left:10px; right:10px; bottom:6px; }
+  .prompt-chip {
+    height:34px; padding:0 14px; color:#495e91; font-weight:600;
+    border:1px solid rgba(220,227,248,.92); background:rgba(239,243,255,.97);
+    box-shadow:0 3px 10px rgba(64,82,132,.045);
+  }
+  .composer { height:52px; padding:6px 7px; border-color:rgba(255,255,255,.96); box-shadow:0 8px 22px rgba(58,72,116,.14),0 0 0 1px rgba(231,235,245,.86); }
+  .composer-btn { width:38px; height:38px; }
+  .composer-btn .icon { width:24px; height:24px; stroke-width:1.8; }
+  .composer input { font-size:14.5px; }
+  .composer input::placeholder { color:#a6adba; }
+  .disclaimer { padding:5px 0 1px; font-size:9px; color:#a8b0c0; }
+  .subpage-header { height:60px; padding:0 10px; background:rgba(247,249,254,.98); border-bottom-color:#edf0f5; grid-template-columns:44px 1fr 44px; }
+  .subpage-header h2 { font-size:21px; font-weight:700; }
+  .settings-screen, .privacy-screen, .search-screen { background:#eef4fe; }
+  .settings-row { min-height:48px; padding:0 16px; font-size:17px; border-bottom-color:#edf1f6; }
+  .display-options { padding:3px; background:#f2f4f8; }
+  .display-options button { padding:7px 12px; }
+  .settings-footer { position:absolute; left:0; right:0; bottom:61px; padding:0 16px; font-size:12px; line-height:2.35; color:#a3abb8; }
+  .settings-footer .copyright { margin-top:2px; font-size:10px; color:#b2b8c2; white-space:nowrap; }
+  .privacy-row { min-height:48px; padding:0 16px; font-size:17px; border-bottom-color:#edf1f6; }
+  .settings-row .icon, .privacy-row .icon { width:20px; height:20px; color:#c8cdd8; stroke-width:1.7; }
+  .search-top { padding:4px 10px; background:#eef4fe; }
+  .search-field { height:34px; border-radius:12px; background:#f7f9fd; }
+  .search-field input { font-size:14px; }
+  .search-cancel { font-size:15px; font-weight:600; color:#333945; }
+  .search-body { padding:12px 14px; }
+  .search-title-row { font-size:16px; font-weight:700; color:#363d49; }
+  .history-chip { margin-top:11px; padding:7px 13px; background:#fff; color:#626a78; }
+  .settings-footer .icp { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:2px; text-decoration-color:#c8ced8; }
+  .phone-b .app-header .page-title { font-size:21px; }
+  .phone-b .screen { padding-bottom:196px; }
+  .bottom-dock { background:linear-gradient(180deg,rgba(238,244,254,0),rgba(238,244,254,.94) 18%,rgba(238,244,254,.99)); }
+  .bottom-input-row { gap:7px; }
+  .chat-launch { height:52px; min-width:53px; border-radius:21px; font-size:9px; box-shadow:0 8px 19px rgba(91,91,255,.20); }
+  .bottom-tabs { height:52px; border-radius:16px; border-color:#e4e9f3; box-shadow:0 6px 18px rgba(52,64,103,.08); }
+  .bottom-tab { font-size:10.5px; }
+  .phone-b .toast { bottom:165px; }
+
 </style>
 </head>
 <body>
@@ -407,6 +523,7 @@
                 <div class="user-line"><div class="user-bubble latest-question">600519</div></div>
                 <div class="thinking-card"><div class="thinking-title"><div class="left"><svg class="icon"><use href="#i-sparkles"/></svg><span>快速推理<small>正在思考</small></span></div><span style="color:#aab2bf">⌃</span></div><div class="step done"><span class="step-dot">✓</span><div><strong>问题分析完成</strong></div></div><div class="step active"><span class="step-dot">•</span><div><strong>关键数据检索中</strong><p>金融查询：600519.SH股票基本信息，包括名称、行情、涨跌幅、最新价、成交量、成交额</p></div></div></div>
                 <div class="answer-card"><div class="quote-line"><div><div style="font-size:14px;font-weight:800">贵州茅台 <span style="font-size:11px;color:#9aa2b1;font-weight:500">600519</span></div><div class="quote-price">1457.70</div></div><div class="quote-change">+3.80　+0.26%</div></div><div class="quote-meta"><span>高<b>1461.60</b></span><span>开<b>1458.88</b></span><span>量<b>3.512万</b></span><span>低<b>1437.71</b></span><span>换<b>0.28%</b></span><span>额<b>50.95亿</b></span></div><div class="mini-kline"><svg viewBox="0 0 330 96" preserveAspectRatio="none"><g stroke="#ef5b5b" fill="#ef5b5b"><path d="M25 33v38M40 26v34M55 40v32M70 19v42M85 27v36M100 15v38M115 21v42M130 35v31M145 42v29M160 36v34M175 28v33M190 41v37M205 22v44M220 30v39M235 17v36M250 24v31M265 38v37M280 29v42M295 20v38M310 33v35" stroke-width="2" opacity=".45"/></g><path d="M21 55 C55 42,73 68,99 46 S145 33,170 50 S211 33,240 41 S285 20,315 34" fill="none" stroke="#5679ff" stroke-width="1.7"/><path d="M21 67 C58 60,76 73,104 60 S146 54,174 63 S218 53,244 58 S286 47,315 52" fill="none" stroke="#e3a33e" stroke-width="1.3"/></svg></div><p class="answer-copy">数据显示，截至2026年11月17日，贵州茅台最新价为1457.7元，当日涨跌幅为0.26%，成交量为351.16万股，成交额为50.95亿元。</p><div class="source">1. 600519.SH股票基本信息，包括名称、行情、涨跌幅…</div></div>
+                <button class="chat-settings-fab" data-demo="对话设置" aria-label="对话设置"><svg class="icon"><use href="#i-setting"/></svg></button>
               </section>
 
               <section class="screen" data-view="trade">
@@ -432,7 +549,7 @@
                   <div class="watch-index"><div class="index-name">北证50</div><div class="index-value down">831.86</div><div class="index-change down"><span>-9.63</span><span>-1.15%</span></div></div>
                 </div>
                 <div class="card watchlist-card">
-                  <div class="watchlist-top"><div class="segmented"><span class="selected">自选股</span><span>持仓股</span></div><div class="watch-tools"><button class="plain-btn" data-demo="新建分组" aria-label="新建分组"><svg class="icon"><use href="#i-plus"/></svg></button><button class="plain-btn" data-demo="自选筛选" aria-label="筛选"><svg class="icon"><use href="#i-sliders"/></svg></button></div></div>
+                  <div class="watchlist-top"><div class="segmented"><span class="selected">自选股</span><span>持仓股</span></div><div class="watch-tools"><button class="plain-btn" data-demo="新建分组" aria-label="新建分组"><svg class="icon"><use href="#i-plus-small"/></svg></button><button class="plain-btn" data-demo="自选筛选" aria-label="筛选"><svg class="icon"><use href="#i-sliders"/></svg></button></div></div>
                   <table class="stock-table"><thead><tr><th>名称/代码</th><th><button class="sort-head" data-sort="price"><span>最新价</span><span class="sort-arrows"><i></i><i></i></span></button></th><th><button class="sort-head" data-sort="change"><span>涨跌幅</span><span class="sort-arrows"><i></i><i></i></span></button></th><th><button class="sort-head" data-sort="delta"><span>涨跌</span><span class="sort-arrows"><i></i><i></i></span></button></th></tr></thead><tbody>
                     <tr data-price="4.80" data-change="-1.23" data-delta="-0.06"><td><div class="stock-name">东风股份</div><div class="stock-code">600006</div></td><td class="num price neg">4.80</td><td class="num neg">-1.23%</td><td class="num neg">-0.06</td></tr>
                     <tr data-price="8.34" data-change="0.72" data-delta="0.06"><td><div class="stock-name">白云机场</div><div class="stock-code">600004</div></td><td class="num price pos">8.34</td><td class="num pos">+0.72%</td><td class="num pos">+0.06</td></tr>
@@ -446,7 +563,7 @@
               <section class="screen settings-screen" data-view="settings">
                 <div class="subpage-header"><button class="icon-btn" data-back aria-label="返回"><svg class="icon"><use href="#i-back"/></svg></button><h2>设置</h2><span class="spacer"></span></div>
                 <div class="settings-group"><div class="settings-row" data-demo="账号设置"><span>账号设置</span><svg class="icon"><use href="#i-chevron"/></svg></div><div class="settings-row" data-open-privacy><span>隐私设置</span><svg class="icon"><use href="#i-chevron"/></svg></div><div class="settings-row"><span>显示模式</span><div class="display-options"><button>浅色</button><button class="active">系统</button><button>深色</button></div></div><div class="settings-row" data-demo="交易设置"><span>交易设置</span><svg class="icon"><use href="#i-chevron"/></svg></div></div>
-                <div class="settings-footer">客服电话：95328<br>微信公众号：dgzqwx<br>粤 ICP 备10010697号-11A<div class="copyright">Copyright @2026-2027 版权所有 东莞证券股份有限公司</div></div>
+                <div class="settings-footer">客服电话：95328<br>微信公众号：dgzqwx<br><span class="icp">粤 ICP 备10010697 号-11A</span><div class="copyright">Copyright @2026-2027 版权所有 东莞证券股份有限公司</div></div>
               </section>
               <section class="screen privacy-screen" data-view="privacy"><div class="subpage-header"><button class="icon-btn" data-back-settings aria-label="返回"><svg class="icon"><use href="#i-back"/></svg></button><h2>隐私设置</h2><span class="spacer"></span></div><div class="privacy-group"><div class="privacy-row" data-demo="系统权限申请与使用"><span>系统权限申请与使用</span><svg class="icon"><use href="#i-chevron"/></svg></div><div class="privacy-row" data-demo="协议条款"><span>协议条款</span><svg class="icon"><use href="#i-chevron"/></svg></div></div></section>
               <section class="screen search-screen" data-view="search"><div class="search-top"><button class="icon-btn" data-back aria-label="返回"><svg class="icon"><use href="#i-back"/></svg></button><div class="search-field"><svg class="icon icon-sm"><use href="#i-search"/></svg><input data-search-input placeholder="搜索代码/股票/基金" /></div><button class="search-cancel" data-back>取消</button></div><div class="search-body"><div class="search-title-row"><span>搜索历史</span><span style="color:#b1b7c2">⌫</span></div><span class="history-chip">600519</span></div></section>

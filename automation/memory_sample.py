@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 from adb_common import Adb, TARGET_PACKAGE
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "research" / "target-dongzheng-ai" / "03-logs" / "memory"
+RESEARCH = ROOT / "research" / "target-dongzheng-ai"
 
 
 def first_int(pattern: str, text: str) -> int | None:
@@ -28,6 +28,9 @@ def main() -> int:
     adb.require_device()
     pid = adb.pid_of(args.package)
     focus = adb.current_focus()
+    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    version_dir = f"v{adb.package_version_name(args.package)}_{now:%Y%m%d}"
+    out = RESEARCH / "logs" / version_dir / "memory" / "raw"
     sample: dict = {
         "label": args.label,
         "captured_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(),
@@ -57,9 +60,9 @@ def main() -> int:
             "activities": first_int(r"Activities:\s*(\d+)", text),
             "webviews": first_int(r"WebViews:\s*(\d+)", text),
         })
-    OUT.mkdir(parents=True, exist_ok=True)
-    stamp = datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y%m%d_%H%M%S")
-    path = OUT / f"{stamp}_{args.label}.json"
+    out.mkdir(parents=True, exist_ok=True)
+    stamp = now.strftime("%Y%m%d_%H%M%S")
+    path = out / f"{stamp}_{args.label}.json"
     path.write_text(json.dumps(sample, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(sample, ensure_ascii=False, indent=2))
     print(f"saved={path}")

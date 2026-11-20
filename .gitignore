@@ -1,4 +1,5 @@
-# Private research repository: raw local evidence is intentionally versioned.
+# Private research repository: raw evidence is versioned under research/**/raw/.
+.private/
 
 # Android/build artifacts
 *.apk

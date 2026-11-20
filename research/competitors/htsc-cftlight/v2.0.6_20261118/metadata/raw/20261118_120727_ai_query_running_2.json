@@ -1,0 +1,12 @@
+{
+  "package": "com.htsc.cftlight",
+  "activity_requested": "com.lphtsccft.light.DialogueListActivity",
+  "label": "ai_query_running_2",
+  "captured_at": "2026-11-18T12:07:27.205972+08:00",
+  "focus": "mCurrentFocus=Window{3dbef62 u0 com.htsc.cftlight/com.lphtsccft.light.DialogueListActivity}\nmFocusedApp=ActivityRecord{68372746 u0 com.htsc.cftlight/com.lphtsccft.light.DialogueListActivity t14188}",
+  "pid": 8708,
+  "start_output": "",
+  "screenshot": "research/competitors/htsc-cftlight/v2.0.6_20261118/screenshots/raw/20261118_120727_ai_query_running_2.png",
+  "ui_xml": "research/competitors/htsc-cftlight/v2.0.6_20261118/ui-hierarchy/raw/20261118_120727_ai_query_running_2.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

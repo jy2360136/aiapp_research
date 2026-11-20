@@ -1,8 +1,8 @@
 # 证据脱敏规则
 
-- `.private/` 永不提交。
+- `research/**/raw/` 仅允许保存在 Private 仓库，禁止外发；原顶层 `.private/` 已删除。
 - 账户号、资金、收益、持仓、姓名、手机号、身份证号、设备标识、Cookie、Token、密码和交易指令必须脱敏。
 - 截图中的账户区域使用纯色遮挡，不只做轻微模糊。
 - UI XML 中涉及上述字段的 `text` 与 `content-desc` 改为 `[已脱敏]`。
 - logcat 只提交与缺陷相关的异常摘要；先删除请求参数、响应载荷、账号和本地路径中的个人标识。
-- 每次提交前执行 `git diff --cached --stat` 与敏感目录检查。
+- 每次提交前执行 `git diff --cached --stat`、`rg -n --hidden -g '!\.git/**' '\.private' .` 与敏感目录检查。

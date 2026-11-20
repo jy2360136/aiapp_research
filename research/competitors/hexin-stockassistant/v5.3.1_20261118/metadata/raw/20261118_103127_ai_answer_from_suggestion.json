@@ -1,0 +1,12 @@
+{
+  "package": "com.hexin.android.stockassistant",
+  "activity_requested": "com.hexin.android.stockassistant/com.hexin.plat.android.LogoEmptyActivity",
+  "label": "ai_answer_from_suggestion",
+  "captured_at": "2026-11-18T10:31:27.928004+08:00",
+  "focus": "mCurrentFocus=Window{853e132 u0 com.hexin.android.stockassistant/com.hexin.plat.android.Hexin}\nmFocusedApp=ActivityRecord{218555903 u0 com.hexin.android.stockassistant/com.hexin.plat.android.Hexin t14168}",
+  "pid": 21027,
+  "start_output": "",
+  "screenshot": "research/competitors/hexin-stockassistant/v5.3.1_20261118/screenshots/raw/20261118_103127_ai_answer_from_suggestion.png",
+  "ui_xml": "research/competitors/hexin-stockassistant/v5.3.1_20261118/ui-hierarchy/raw/20261118_103127_ai_answer_from_suggestion.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

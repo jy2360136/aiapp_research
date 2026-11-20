@@ -15,7 +15,7 @@ from PIL import Image
 from adb_common import Adb
 
 ROOT = Path(__file__).resolve().parents[1]
-PRIVATE = ROOT / ".private" / "raw" / "competitors"
+RESEARCH = ROOT / "research" / "competitors"
 
 
 def main() -> int:
@@ -24,6 +24,7 @@ def main() -> int:
     parser.add_argument("--activity", required=True)
     parser.add_argument("--slug", required=True)
     parser.add_argument("--label", required=True)
+    parser.add_argument("--version", help="App version override; defaults to installed versionName")
     parser.add_argument("--wait-ms", type=int, default=5000)
     parser.add_argument("--no-force-stop", action="store_true")
     parser.add_argument("--no-start", action="store_true", help="Capture current screen without launching the app")
@@ -63,10 +64,13 @@ def main() -> int:
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
     stamp = now.strftime("%Y%m%d_%H%M%S")
     safe_label = re.sub(r"[^0-9A-Za-z_\-\u4e00-\u9fff]+", "_", args.label).strip("_")
-    out = PRIVATE / args.slug
-    shot_dir = out / "screenshots"
-    xml_dir = out / "ui-hierarchy"
-    meta_dir = out / "metadata"
+    version = args.version or adb.package_version_name(args.package)
+    safe_version = re.sub(r"[^0-9A-Za-z_.\-]+", "_", version).strip("_") or "unknown"
+    version_dir = f"v{safe_version}_{now:%Y%m%d}"
+    out = RESEARCH / args.slug / version_dir
+    shot_dir = out / "screenshots" / "raw"
+    xml_dir = out / "ui-hierarchy" / "raw"
+    meta_dir = out / "metadata" / "raw"
     for d in (shot_dir, xml_dir, meta_dir):
         d.mkdir(parents=True, exist_ok=True)
     shot = shot_dir / f"{stamp}_{safe_label}.png"
@@ -76,6 +80,8 @@ def main() -> int:
     ui.write_text(xml_text, encoding="utf-8")
     meta.write_text(json.dumps({
         "package": args.package,
+        "version_name": version,
+        "version_dir": version_dir,
         "activity_requested": args.activity,
         "label": args.label,
         "captured_at": now.isoformat(),
@@ -85,7 +91,7 @@ def main() -> int:
         "screenshot": str(shot.relative_to(ROOT)),
         "ui_xml": str(ui.relative_to(ROOT)),
         "ui_xml_error": ui_xml_error,
-        "privacy": "raw private evidence; inspect and redact before publishing",
+        "privacy": "raw evidence; inspect and redact before sharing",
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"package": args.package, "label": args.label, "screenshot": str(shot), "ui_xml": str(ui), "focus": focus}, ensure_ascii=False, indent=2))
     return 0

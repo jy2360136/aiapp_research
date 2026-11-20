@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import subprocess
 import time
@@ -125,6 +126,11 @@ class Adb:
         if not value:
             return None
         return int(value.split()[0])
+
+    def package_version_name(self, package: str) -> str:
+        raw = self.shell_args(["dumpsys", "package", package])
+        match = re.search(r"versionName=([^\s]+)", raw)
+        return match.group(1).strip() if match else "unknown"
 
     def tap(self, x: int, y: int) -> None:
         self.shell_args(["input", "tap", str(x), str(y)])

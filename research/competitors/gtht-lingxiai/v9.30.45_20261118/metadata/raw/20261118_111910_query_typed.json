@@ -1,0 +1,12 @@
+{
+  "package": "com.gtht.lingxiai",
+  "activity_requested": "com.gtja.home.lxaikit.aiapp.AIMainScreen",
+  "label": "query_typed",
+  "captured_at": "2026-11-18T11:19:10.710698+08:00",
+  "focus": "mCurrentFocus=Window{d868a6c u0 com.gtht.lingxiai/com.gtja.home.lxaikit.aiapp.AIMainScreen}\nmFocusedApp=ActivityRecord{224649119 u0 com.gtht.lingxiai/com.gtja.home.lxaikit.aiapp.AIMainScreen t14175}",
+  "pid": 23466,
+  "start_output": "",
+  "screenshot": "research/competitors/gtht-lingxiai/v9.30.45_20261118/screenshots/raw/20261118_111910_query_typed.png",
+  "ui_xml": "research/competitors/gtht-lingxiai/v9.30.45_20261118/ui-hierarchy/raw/20261118_111910_query_typed.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

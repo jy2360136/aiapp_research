@@ -1,0 +1,12 @@
+{
+  "package": "com.cjsc.moo",
+  "activity_requested": "com.cjsc.moo/.MainActivity",
+  "label": "agent_screen_2",
+  "captured_at": "2026-11-18T11:25:46.095101+08:00",
+  "focus": "mCurrentFocus=Window{5853f5c u0 com.cjsc.moo/com.cjsc.moo.MainActivity}\nmFocusedApp=ActivityRecord{155127168 u0 com.cjsc.moo/.MainActivity t14176}",
+  "pid": 29963,
+  "start_output": "",
+  "screenshot": "research/competitors/cjsc-moo/v1.1.6_20261118/screenshots/raw/20261118_112546_agent_screen_2.png",
+  "ui_xml": "research/competitors/cjsc-moo/v1.1.6_20261118/ui-hierarchy/raw/20261118_112546_agent_screen_2.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

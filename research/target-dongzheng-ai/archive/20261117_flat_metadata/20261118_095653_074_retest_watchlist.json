@@ -6,7 +6,7 @@
   "focus": "mCurrentFocus=Window{56b4932 u0 dongzheng.ai.android.phone/dongzheng.ai.android.phone.MainActivity}\nmFocusedApp=ActivityRecord{22483780 u0 dongzheng.ai.android.phone/.MainActivity t14161}",
   "signature": "15b38a9fba550808",
   "package": "dongzheng.ai.android.phone",
-  "screenshot": ".private\\raw\\target-dongzheng-ai\\01-screenshots\\20261118_095653_074_retest_watchlist.png",
-  "ui_xml": ".private\\raw\\target-dongzheng-ai\\02-ui-hierarchy\\20261118_095653_074_retest_watchlist.xml",
-  "summary": "research\\target-dongzheng-ai\\02-ui-hierarchy\\20261118_095653_074_retest_watchlist_summary.md"
+  "screenshot": "research/target-dongzheng-ai/screenshots/v1.0.0_20261118/raw/20261118_095653_074_retest_watchlist.png",
+  "ui_xml": "research/target-dongzheng-ai/ui-hierarchy/v1.0.0_20261118/raw/20261118_095653_074_retest_watchlist.xml",
+  "summary": "research/target-dongzheng-ai/archive/20261117_flat_ui-hierarchy/20261118_095653_074_retest_watchlist_summary.md"
 }

@@ -1,0 +1,12 @@
+{
+  "package": "com.hexin.android.stockassistant",
+  "activity_requested": "com.hexin.android.stockassistant/com.hexin.plat.android.LogoEmptyActivity",
+  "label": "ai_home_2",
+  "captured_at": "2026-11-18T10:27:36.257487+08:00",
+  "focus": "mCurrentFocus=Window{853e132 u0 com.hexin.android.stockassistant/com.hexin.plat.android.Hexin}\nmFocusedApp=ActivityRecord{218555903 u0 com.hexin.android.stockassistant/com.hexin.plat.android.Hexin t14168}",
+  "pid": 21027,
+  "start_output": "Starting: Intent { cmp=com.hexin.android.stockassistant/com.hexin.plat.android.LogoEmptyActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.hexin.android.stockassistant/com.hexin.plat.android.Hexin\r\nTotalTime: 576\r\nWaitTime: 578\r\nComplete\r\n",
+  "screenshot": "research/competitors/hexin-stockassistant/v5.3.1_20261118/screenshots/raw/20261118_102736_ai_home_2.png",
+  "ui_xml": "research/competitors/hexin-stockassistant/v5.3.1_20261118/ui-hierarchy/raw/20261118_102736_ai_home_2.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

@@ -1,0 +1,12 @@
+{
+  "package": "com.galaxy.stock",
+  "activity_requested": "com.galaxy.stock/cn.com.chinastock.StartActivity",
+  "label": "home",
+  "captured_at": "2026-11-17T17:49:11.755937+08:00",
+  "focus": "mCurrentFocus=Window{eabee10 u0 com.galaxy.stock/cn.com.chinastock.MainActivity}\nmFocusedApp=ActivityRecord{17533029 u0 com.galaxy.stock/cn.com.chinastock.MainActivity t14084}",
+  "pid": 26452,
+  "start_output": "Starting: Intent { cmp=com.galaxy.stock/cn.com.chinastock.StartActivity }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.galaxy.stock/cn.com.chinastock.StartActivity\r\nTotalTime: 951\r\nWaitTime: 955\r\nComplete\r\n",
+  "screenshot": "research/competitors/galaxy-stock/vunknown_20261117/screenshots/raw/20261117_174911_home.png",
+  "ui_xml": "research/competitors/galaxy-stock/vunknown_20261117/ui-hierarchy/raw/20261117_174911_home.xml",
+  "privacy": "raw evidence; inspect and redact before sharing"
+}

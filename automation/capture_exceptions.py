@@ -9,8 +9,7 @@ from zoneinfo import ZoneInfo
 from adb_common import Adb, TARGET_PACKAGE
 
 ROOT = Path(__file__).resolve().parents[1]
-PRIVATE = ROOT / ".private" / "raw" / "target-dongzheng-ai" / "03-logs"
-PUBLIC = ROOT / "research" / "target-dongzheng-ai" / "03-logs"
+RESEARCH = ROOT / "research" / "target-dongzheng-ai"
 KEY = re.compile(r"(FATAL EXCEPTION|AndroidRuntime|ANR in|ANR |Exception|Error|Crash|SIG(?:SEGV|ABRT|BUS)|NullPointer|IllegalState|NetworkOnMainThread)")
 
 
@@ -41,9 +40,12 @@ def main() -> int:
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
     stamp = now.strftime("%Y%m%d_%H%M%S")
     safe_label = re.sub(r"[^0-9A-Za-z_\-\u4e00-\u9fff]+", "_", args.label).strip("_")
-    PRIVATE.mkdir(parents=True, exist_ok=True)
-    PUBLIC.mkdir(parents=True, exist_ok=True)
-    raw_path = PRIVATE / f"{stamp}_{safe_label}.log"
+    version_dir = f"v{adb.package_version_name(TARGET_PACKAGE)}_{now:%Y%m%d}"
+    raw_dir = RESEARCH / "logs" / version_dir / "raw"
+    report_dir = RESEARCH / "logs" / version_dir
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    report_dir.mkdir(parents=True, exist_ok=True)
+    raw_path = raw_dir / f"{stamp}_{safe_label}.log"
     raw_path.write_text(raw, encoding="utf-8")
 
     selected = []
@@ -54,20 +56,20 @@ def main() -> int:
             if clean not in seen:
                 selected.append(clean)
                 seen.add(clean)
-    report = PUBLIC / f"{stamp}_{safe_label}_exceptions.md"
+    report = report_dir / f"{stamp}_{safe_label}_exceptions.md"
     content = [
         f"# 异常日志摘要：{args.label}",
         "",
         f"- 采集时间：{now.isoformat()}",
         f"- 进程 PID：{pid}",
-        f"- 原始日志：仅本机 `.private/`",
+        f"- 原始日志：`{raw_path.relative_to(ROOT).as_posix()}`（敏感，勿外发）",
         f"- 命中行数：{len(selected)}",
         "",
         "```text",
         *(selected if selected else ["未命中 FATAL / Exception / ANR / Crash 等关键词。"]),
         "```",
         "",
-        "说明：完整原始 logcat 不进入 Git；本文件仅保留经基础脱敏的关键行，仍需人工复核。",
+        "说明：完整原始 logcat 可能包含敏感信息，不得对外分享；本文件仅保留经基础脱敏的关键行，仍需人工复核。",
     ]
     report.write_text("\n".join(content) + "\n", encoding="utf-8")
     print(f"raw={raw_path}")

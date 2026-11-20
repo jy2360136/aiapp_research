@@ -15,6 +15,8 @@
 - [AI 功能规划与优先级清单](docs/product-roadmap.md)
 - [掌小宝页面地图](research/target-dongzheng-ai/navigation/v1.0.0_20261118/page-map.md)
 - [自动化脚本说明](automation/README.md)
+- [`.private` 迁移记录](research/evidence-migration-20261120.md)
+- [跨电脑交接文档](docs/next-session-handoff-20261120.md)
 
 ## 原型图
 
@@ -51,22 +53,30 @@ research/
   target-dongzheng-ai/
     README.md                       掌小宝测试目录入口
     screenshots/v1.0.0_20261118/    按功能分区和步骤命名的版本化截图
+      raw/                          原始截图证据
     ui-hierarchy/v1.0.0_20261118/   对应 UI 结构
+      raw/                          原始 UI XML
     logs/v1.0.0_20261118/           AI 试验与内存日志
+      raw/                          原始 logcat
+      app-internal/                 App 内部分享/诊断日志
     metadata/v1.0.0_20261118/       设备和版本元数据
+      raw/                          原始采集元数据
     navigation/v1.0.0_20261118/     页面地图
     archive/                        历史平铺证据，仅追溯
   competitors/
     <product>/v<version>_<date>/    竞品按版本和功能分区
+      screenshots/raw/              原始截图证据
+      ui-hierarchy/raw/             原始 UI XML
+      metadata/raw/                 原始采集元数据
     archive/                        历史平铺截图，仅追溯
 ```
 
 ## 隐私与安全
 
-- 仓库已设置为 Private，用于内部开发与家庭电脑同步。原始截图、UI XML 和日志保存在 `.private/`，并纳入私有仓库版本控制。当前结论以 `docs/` 和版本化 `research/` 为准。
+- 仓库已设置为 Private，用于内部开发与家庭电脑同步。原始截图、UI XML 和日志按产品和版本分别保存在 `research/**/raw/`，不再使用顶层 `.private/`。当前结论以 `docs/` 和版本化 `research/` 为准。
 - 提交到 Git 的竞品截图已去除手机状态栏，避免暴露无关通知和个人信息。
 - 自动遍历不点击交易、转账、删除、退出登录、支付及其他会改变资金/账户状态的动作。
-- 仓库只保留异常摘要、复现步骤和必要且已脱敏的堆栈片段。
+- `raw/` 目录仅在私有仓库内同步；对外分享只使用异常摘要、复现步骤和已脱敏截图。
 
 ## 运行前置
 
@@ -80,3 +90,4 @@ python automation/capture_page.py --label example --scope public
 ```
 
 详细方法见 `docs/handoff.md`、`automation/README.md` 和 `docs/research-method.md`。
+
